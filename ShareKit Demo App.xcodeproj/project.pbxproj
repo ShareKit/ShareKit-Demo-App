@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A101A2C197FCFB600396A3B /* ExampleShareFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C72E197C613900B0DD69 /* ExampleShareFile.m */; };
+		7A101A2D197FCFBA00396A3B /* ExampleShareImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C730197C613900B0DD69 /* ExampleShareImage.m */; };
+		7A101A2E197FCFBD00396A3B /* ExampleShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C732197C613900B0DD69 /* ExampleShareLink.m */; };
 		7A15C6FF197C5E2800B0DD69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C6FE197C5E2800B0DD69 /* Foundation.framework */; };
 		7A15C701197C5E2800B0DD69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */; };
 		7A15C703197C5E2800B0DD69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C702197C5E2800B0DD69 /* UIKit.framework */; };
 		7A15C709197C5E2800B0DD69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C707197C5E2800B0DD69 /* InfoPlist.strings */; };
 		7A15C70B197C5E2800B0DD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C70A197C5E2800B0DD69 /* main.m */; };
 		7A15C711197C5E2800B0DD69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C710197C5E2800B0DD69 /* Images.xcassets */; };
-		7A15C718197C5E2800B0DD69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C717197C5E2800B0DD69 /* XCTest.framework */; };
-		7A15C719197C5E2800B0DD69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C6FE197C5E2800B0DD69 /* Foundation.framework */; };
-		7A15C71A197C5E2800B0DD69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C702197C5E2800B0DD69 /* UIKit.framework */; };
-		7A15C722197C5E2800B0DD69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C720197C5E2800B0DD69 /* InfoPlist.strings */; };
-		7A15C724197C5E2800B0DD69 /* ShareKit_Demo_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C723197C5E2800B0DD69 /* ShareKit_Demo_AppTests.m */; };
 		7A15C73C197C613900B0DD69 /* ExampleShareFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C72E197C613900B0DD69 /* ExampleShareFile.m */; };
 		7A15C73D197C613900B0DD69 /* ExampleShareImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C730197C613900B0DD69 /* ExampleShareImage.m */; };
 		7A15C73E197C613900B0DD69 /* ExampleShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C732197C613900B0DD69 /* ExampleShareLink.m */; };
@@ -66,16 +64,16 @@
 		7A15C837197C6E6E00B0DD69 /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C832197C6E6E00B0DD69 /* example.pdf */; };
 		7A15C838197C6E6E00B0DD69 /* sanFran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C833197C6E6E00B0DD69 /* sanFran.jpg */; };
 		7A15C83D197C6FC500B0DD69 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C83A197C6FC500B0DD69 /* GTMOAuth2ViewTouch.xib */; };
+		7ACDD3B4197D6E5400373DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C6FE197C5E2800B0DD69 /* Foundation.framework */; };
+		7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */; };
+		7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C702197C5E2800B0DD69 /* UIKit.framework */; };
+		7ACDD3BC197D6E5400373DC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ACDD3BA197D6E5400373DC3 /* InfoPlist.strings */; };
+		7ACDD3BE197D6E5400373DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACDD3BD197D6E5400373DC3 /* main.m */; };
+		7ACDD3C2197D6E5400373DC3 /* SHKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACDD3C1197D6E5400373DC3 /* SHKAppDelegate.m */; };
+		7ACDD3C4197D6E5400373DC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACDD3C3197D6E5400373DC3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A15C71B197C5E2800B0DD69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A15C6F3197C5E2800B0DD69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A15C6FA197C5E2800B0DD69;
-			remoteInfo = "ShareKit Demo App";
-		};
 		7A15C779197C657200B0DD69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
@@ -445,7 +443,6 @@
 		7A15C70A197C5E2800B0DD69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A15C70C197C5E2800B0DD69 /* ShareKit Demo App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareKit Demo App-Prefix.pch"; sourceTree = "<group>"; };
 		7A15C710197C5E2800B0DD69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "ShareKit Demo App/Images.xcassets"; sourceTree = "<group>"; };
-		7A15C716197C5E2800B0DD69 /* ShareKit Demo AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShareKit Demo AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15C717197C5E2800B0DD69 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7A15C71F197C5E2800B0DD69 /* ShareKit Demo AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKit Demo AppTests-Info.plist"; sourceTree = "<group>"; };
 		7A15C721197C5E2800B0DD69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -503,6 +500,17 @@
 		7A15C832197C6E6E00B0DD69 /* example.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = example.pdf; path = "ShareKit Demo App/example.pdf"; sourceTree = "<group>"; };
 		7A15C833197C6E6E00B0DD69 /* sanFran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sanFran.jpg; path = "ShareKit Demo App/sanFran.jpg"; sourceTree = "<group>"; };
 		7A15C83A197C6FC500B0DD69 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App (CocoaPods).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACDD3B9197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKit Demo App (CocoaPods)-Info.plist"; sourceTree = "<group>"; };
+		7ACDD3BB197D6E5400373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ACDD3BD197D6E5400373DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ACDD3BF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareKit Demo App (CocoaPods)-Prefix.pch"; sourceTree = "<group>"; };
+		7ACDD3C0197D6E5400373DC3 /* SHKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKAppDelegate.h; sourceTree = "<group>"; };
+		7ACDD3C1197D6E5400373DC3 /* SHKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKAppDelegate.m; sourceTree = "<group>"; };
+		7ACDD3C3197D6E5400373DC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ACDD3D1197D6E5500373DC3 /* ShareKit Demo App (CocoaPods)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKit Demo App (CocoaPods)Tests-Info.plist"; sourceTree = "<group>"; };
+		7ACDD3D3197D6E5500373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ACDD3D5197D6E5500373DC3 /* ShareKit_Demo_App__CocoaPods_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareKit_Demo_App__CocoaPods_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -545,13 +553,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A15C713197C5E2800B0DD69 /* Frameworks */ = {
+		7ACDD3B0197D6E5400373DC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A15C718197C5E2800B0DD69 /* XCTest.framework in Frameworks */,
-				7A15C71A197C5E2800B0DD69 /* UIKit.framework in Frameworks */,
-				7A15C719197C5E2800B0DD69 /* Foundation.framework in Frameworks */,
+				7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */,
+				7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */,
+				7ACDD3B4197D6E5400373DC3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +572,8 @@
 				7A15C744197C654F00B0DD69 /* Submodules */,
 				7A15C704197C5E2800B0DD69 /* ShareKit Demo App */,
 				7A15C71D197C5E2800B0DD69 /* ShareKit Demo AppTests */,
+				7ACDD3B7197D6E5400373DC3 /* ShareKit Demo App (CocoaPods) */,
+				7ACDD3CF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)Tests */,
 				7A15C6FD197C5E2800B0DD69 /* Frameworks */,
 				7A15C6FC197C5E2800B0DD69 /* Products */,
 			);
@@ -573,7 +583,7 @@
 			isa = PBXGroup;
 			children = (
 				7A15C6FB197C5E2800B0DD69 /* ShareKit Demo App.app */,
-				7A15C716197C5E2800B0DD69 /* ShareKit Demo AppTests.xctest */,
+				7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -786,6 +796,46 @@
 			path = Submodules/ShareKit;
 			sourceTree = "<group>";
 		};
+		7ACDD3B7197D6E5400373DC3 /* ShareKit Demo App (CocoaPods) */ = {
+			isa = PBXGroup;
+			children = (
+				7ACDD3C0197D6E5400373DC3 /* SHKAppDelegate.h */,
+				7ACDD3C1197D6E5400373DC3 /* SHKAppDelegate.m */,
+				7ACDD3C3197D6E5400373DC3 /* Images.xcassets */,
+				7ACDD3B8197D6E5400373DC3 /* Supporting Files */,
+			);
+			path = "ShareKit Demo App (CocoaPods)";
+			sourceTree = "<group>";
+		};
+		7ACDD3B8197D6E5400373DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACDD3B9197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Info.plist */,
+				7ACDD3BA197D6E5400373DC3 /* InfoPlist.strings */,
+				7ACDD3BD197D6E5400373DC3 /* main.m */,
+				7ACDD3BF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ACDD3CF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACDD3D5197D6E5500373DC3 /* ShareKit_Demo_App__CocoaPods_Tests.m */,
+				7ACDD3D0197D6E5500373DC3 /* Supporting Files */,
+			);
+			path = "ShareKit Demo App (CocoaPods)Tests";
+			sourceTree = "<group>";
+		};
+		7ACDD3D0197D6E5500373DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACDD3D1197D6E5500373DC3 /* ShareKit Demo App (CocoaPods)Tests-Info.plist */,
+				7ACDD3D2197D6E5500373DC3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -808,23 +858,22 @@
 			productReference = 7A15C6FB197C5E2800B0DD69 /* ShareKit Demo App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A15C715197C5E2800B0DD69 /* ShareKit Demo AppTests */ = {
+		7ACDD3B2197D6E5400373DC3 /* ShareKit Demo App (CocoaPods) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A15C72A197C5E2800B0DD69 /* Build configuration list for PBXNativeTarget "ShareKit Demo AppTests" */;
+			buildConfigurationList = 7ACDD40A197D6E5700373DC3 /* Build configuration list for PBXNativeTarget "ShareKit Demo App (CocoaPods)" */;
 			buildPhases = (
-				7A15C712197C5E2800B0DD69 /* Sources */,
-				7A15C713197C5E2800B0DD69 /* Frameworks */,
-				7A15C714197C5E2800B0DD69 /* Resources */,
+				7ACDD3AF197D6E5400373DC3 /* Sources */,
+				7ACDD3B0197D6E5400373DC3 /* Frameworks */,
+				7ACDD3B1197D6E5400373DC3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A15C71C197C5E2800B0DD69 /* PBXTargetDependency */,
 			);
-			name = "ShareKit Demo AppTests";
-			productName = "ShareKit Demo AppTests";
-			productReference = 7A15C716197C5E2800B0DD69 /* ShareKit Demo AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "ShareKit Demo App (CocoaPods)";
+			productName = "ShareKit Demo App (CocoaPods)";
+			productReference = 7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -835,11 +884,6 @@
 				CLASSPREFIX = SHK;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Vilém Kurz";
-				TargetAttributes = {
-					7A15C715197C5E2800B0DD69 = {
-						TestTargetID = 7A15C6FA197C5E2800B0DD69;
-					};
-				};
 			};
 			buildConfigurationList = 7A15C6F6197C5E2800B0DD69 /* Build configuration list for PBXProject "ShareKit Demo App" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -860,7 +904,7 @@
 			projectRoot = "";
 			targets = (
 				7A15C6FA197C5E2800B0DD69 /* ShareKit Demo App */,
-				7A15C715197C5E2800B0DD69 /* ShareKit Demo AppTests */,
+				7ACDD3B2197D6E5400373DC3 /* ShareKit Demo App (CocoaPods) */,
 			);
 		};
 /* End PBXProject section */
@@ -1233,11 +1277,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A15C714197C5E2800B0DD69 /* Resources */ = {
+		7ACDD3B1197D6E5400373DC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A15C722197C5E2800B0DD69 /* InfoPlist.strings in Resources */,
+				7ACDD3BC197D6E5400373DC3 /* InfoPlist.strings in Resources */,
+				7ACDD3C4197D6E5400373DC3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1259,22 +1304,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A15C712197C5E2800B0DD69 /* Sources */ = {
+		7ACDD3AF197D6E5400373DC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A15C724197C5E2800B0DD69 /* ShareKit_Demo_AppTests.m in Sources */,
+				7A101A2D197FCFBA00396A3B /* ExampleShareImage.m in Sources */,
+				7A101A2C197FCFB600396A3B /* ExampleShareFile.m in Sources */,
+				7ACDD3BE197D6E5400373DC3 /* main.m in Sources */,
+				7A101A2E197FCFBD00396A3B /* ExampleShareLink.m in Sources */,
+				7ACDD3C2197D6E5400373DC3 /* SHKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A15C71C197C5E2800B0DD69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A15C6FA197C5E2800B0DD69 /* ShareKit Demo App */;
-			targetProxy = 7A15C71B197C5E2800B0DD69 /* PBXContainerItemProxy */;
-		};
 		7A15C7DC197C659E00B0DD69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Static Library";
@@ -1300,6 +1344,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7A15C721197C5E2800B0DD69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7ACDD3BA197D6E5400373DC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACDD3BB197D6E5400373DC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7ACDD3D2197D6E5500373DC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACDD3D3197D6E5500373DC3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1425,43 +1485,35 @@
 			};
 			name = Release;
 		};
-		7A15C72B197C5E2800B0DD69 /* Debug */ = {
+		7ACDD3D7197D6E5700373DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareKit Demo App.app/ShareKit Demo App";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKit Demo App/ShareKit Demo App-Prefix.pch";
+				GCC_PREFIX_HEADER = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ShareKit Demo AppTests/ShareKit Demo AppTests-Info.plist";
+				INFOPLIST_FILE = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		7A15C72C197C5E2800B0DD69 /* Release */ = {
+		7ACDD3D8197D6E5700373DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareKit Demo App.app/ShareKit Demo App";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKit Demo App/ShareKit Demo App-Prefix.pch";
-				INFOPLIST_FILE = "ShareKit Demo AppTests/ShareKit Demo AppTests-Info.plist";
+				GCC_PREFIX_HEADER = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Prefix.pch";
+				INFOPLIST_FILE = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -1486,11 +1538,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A15C72A197C5E2800B0DD69 /* Build configuration list for PBXNativeTarget "ShareKit Demo AppTests" */ = {
+		7ACDD40A197D6E5700373DC3 /* Build configuration list for PBXNativeTarget "ShareKit Demo App (CocoaPods)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A15C72B197C5E2800B0DD69 /* Debug */,
-				7A15C72C197C5E2800B0DD69 /* Release */,
+				7ACDD3D7197D6E5700373DC3 /* Debug */,
+				7ACDD3D8197D6E5700373DC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
