@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73E1B9FCDFDF44E7A56A1997 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C74A0F6471474BAA9279AC7A /* libPods.a */; };
 		7A101A2C197FCFB600396A3B /* ExampleShareFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C72E197C613900B0DD69 /* ExampleShareFile.m */; };
 		7A101A2D197FCFBA00396A3B /* ExampleShareImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C730197C613900B0DD69 /* ExampleShareImage.m */; };
 		7A101A2E197FCFBD00396A3B /* ExampleShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C732197C613900B0DD69 /* ExampleShareLink.m */; };
@@ -64,12 +65,22 @@
 		7A15C837197C6E6E00B0DD69 /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C832197C6E6E00B0DD69 /* example.pdf */; };
 		7A15C838197C6E6E00B0DD69 /* sanFran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C833197C6E6E00B0DD69 /* sanFran.jpg */; };
 		7A15C83D197C6FC500B0DD69 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C83A197C6FC500B0DD69 /* GTMOAuth2ViewTouch.xib */; };
+		7A3C2F001996BAB200CEBBFA /* ShareKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C739197C613900B0DD69 /* ShareKitAppDelegate.m */; };
+		7A3C2F301996BAB500CEBBFA /* ShareKitDemoConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C73B197C613900B0DD69 /* ShareKitDemoConfigurator.m */; };
+		7A3C2F311996BABB00CEBBFA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C736197C613900B0DD69 /* RootViewController.m */; };
+		7A3C2F321996BABD00CEBBFA /* ExampleShareText.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C734197C613900B0DD69 /* ExampleShareText.m */; };
+		7A3C2F331996C81100CEBBFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82D197C6DEF00B0DD69 /* MainWindow.xib */; };
+		7A3C2F341996C84E00CEBBFA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C737197C613900B0DD69 /* RootViewController.xib */; };
+		7A3C2F351996CA3C00CEBBFA /* demo_audio_share.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82F197C6E6E00B0DD69 /* demo_audio_share.mp3 */; };
+		7A3C2F361996CA3F00CEBBFA /* demo_large_video_share.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C830197C6E6E00B0DD69 /* demo_large_video_share.mp4 */; };
+		7A3C2F371996CA4100CEBBFA /* demo_video_share.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C831197C6E6E00B0DD69 /* demo_video_share.mov */; };
+		7A3C2F381996CA4400CEBBFA /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C832197C6E6E00B0DD69 /* example.pdf */; };
+		7A3C2F391996CA4700CEBBFA /* sanFran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C833197C6E6E00B0DD69 /* sanFran.jpg */; };
+		7A3C2F3A1996CA5600CEBBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C70A197C5E2800B0DD69 /* main.m */; };
 		7ACDD3B4197D6E5400373DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C6FE197C5E2800B0DD69 /* Foundation.framework */; };
 		7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */; };
 		7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C702197C5E2800B0DD69 /* UIKit.framework */; };
 		7ACDD3BC197D6E5400373DC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ACDD3BA197D6E5400373DC3 /* InfoPlist.strings */; };
-		7ACDD3BE197D6E5400373DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACDD3BD197D6E5400373DC3 /* main.m */; };
-		7ACDD3C2197D6E5400373DC3 /* SHKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACDD3C1197D6E5400373DC3 /* SHKAppDelegate.m */; };
 		7ACDD3C4197D6E5400373DC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACDD3C3197D6E5400373DC3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -501,16 +512,14 @@
 		7A15C833197C6E6E00B0DD69 /* sanFran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sanFran.jpg; path = "ShareKit Demo App/sanFran.jpg"; sourceTree = "<group>"; };
 		7A15C83A197C6FC500B0DD69 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
 		7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App (CocoaPods).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ACDD3B9197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKit Demo App (CocoaPods)-Info.plist"; sourceTree = "<group>"; };
 		7ACDD3BB197D6E5400373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7ACDD3BD197D6E5400373DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7ACDD3BF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareKit Demo App (CocoaPods)-Prefix.pch"; sourceTree = "<group>"; };
-		7ACDD3C0197D6E5400373DC3 /* SHKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKAppDelegate.h; sourceTree = "<group>"; };
-		7ACDD3C1197D6E5400373DC3 /* SHKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKAppDelegate.m; sourceTree = "<group>"; };
 		7ACDD3C3197D6E5400373DC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7ACDD3D1197D6E5500373DC3 /* ShareKit Demo App (CocoaPods)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKit Demo App (CocoaPods)Tests-Info.plist"; sourceTree = "<group>"; };
 		7ACDD3D3197D6E5500373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7ACDD3D5197D6E5500373DC3 /* ShareKit_Demo_App__CocoaPods_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareKit_Demo_App__CocoaPods_Tests.m; sourceTree = "<group>"; };
+		C74A0F6471474BAA9279AC7A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7F7AB00A5C41A2BF7926AC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -560,6 +569,7 @@
 				7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */,
 				7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */,
 				7ACDD3B4197D6E5400373DC3 /* Foundation.framework in Frameworks */,
+				73E1B9FCDFDF44E7A56A1997 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +586,7 @@
 				7ACDD3CF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)Tests */,
 				7A15C6FD197C5E2800B0DD69 /* Frameworks */,
 				7A15C6FC197C5E2800B0DD69 /* Products */,
+				FD7F7AB00A5C41A2BF7926AC /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -624,6 +635,7 @@
 				7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */,
 				7A15C702197C5E2800B0DD69 /* UIKit.framework */,
 				7A15C717197C5E2800B0DD69 /* XCTest.framework */,
+				C74A0F6471474BAA9279AC7A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -799,8 +811,6 @@
 		7ACDD3B7197D6E5400373DC3 /* ShareKit Demo App (CocoaPods) */ = {
 			isa = PBXGroup;
 			children = (
-				7ACDD3C0197D6E5400373DC3 /* SHKAppDelegate.h */,
-				7ACDD3C1197D6E5400373DC3 /* SHKAppDelegate.m */,
 				7ACDD3C3197D6E5400373DC3 /* Images.xcassets */,
 				7ACDD3B8197D6E5400373DC3 /* Supporting Files */,
 			);
@@ -810,9 +820,7 @@
 		7ACDD3B8197D6E5400373DC3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7ACDD3B9197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Info.plist */,
 				7ACDD3BA197D6E5400373DC3 /* InfoPlist.strings */,
-				7ACDD3BD197D6E5400373DC3 /* main.m */,
 				7ACDD3BF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -862,9 +870,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ACDD40A197D6E5700373DC3 /* Build configuration list for PBXNativeTarget "ShareKit Demo App (CocoaPods)" */;
 			buildPhases = (
+				45840EC6BD3246019F8FDB32 /* Check Pods Manifest.lock */,
 				7ACDD3AF197D6E5400373DC3 /* Sources */,
 				7ACDD3B0197D6E5400373DC3 /* Frameworks */,
 				7ACDD3B1197D6E5400373DC3 /* Resources */,
+				9ECA1C81C273481FAD3AB551 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1283,10 +1293,50 @@
 			files = (
 				7ACDD3BC197D6E5400373DC3 /* InfoPlist.strings in Resources */,
 				7ACDD3C4197D6E5400373DC3 /* Images.xcassets in Resources */,
+				7A3C2F371996CA4100CEBBFA /* demo_video_share.mov in Resources */,
+				7A3C2F361996CA3F00CEBBFA /* demo_large_video_share.mp4 in Resources */,
+				7A3C2F391996CA4700CEBBFA /* sanFran.jpg in Resources */,
+				7A3C2F351996CA3C00CEBBFA /* demo_audio_share.mp3 in Resources */,
+				7A3C2F341996C84E00CEBBFA /* RootViewController.xib in Resources */,
+				7A3C2F331996C81100CEBBFA /* MainWindow.xib in Resources */,
+				7A3C2F381996CA4400CEBBFA /* example.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45840EC6BD3246019F8FDB32 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ECA1C81C273481FAD3AB551 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A15C6F7197C5E2800B0DD69 /* Sources */ = {
@@ -1310,9 +1360,12 @@
 			files = (
 				7A101A2D197FCFBA00396A3B /* ExampleShareImage.m in Sources */,
 				7A101A2C197FCFB600396A3B /* ExampleShareFile.m in Sources */,
-				7ACDD3BE197D6E5400373DC3 /* main.m in Sources */,
+				7A3C2F311996BABB00CEBBFA /* RootViewController.m in Sources */,
+				7A3C2F301996BAB500CEBBFA /* ShareKitDemoConfigurator.m in Sources */,
 				7A101A2E197FCFBD00396A3B /* ExampleShareLink.m in Sources */,
-				7ACDD3C2197D6E5400373DC3 /* SHKAppDelegate.m in Sources */,
+				7A3C2F321996BABD00CEBBFA /* ExampleShareText.m in Sources */,
+				7A3C2F3A1996CA5600CEBBFA /* main.m in Sources */,
+				7A3C2F001996BAB200CEBBFA /* ShareKitAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1487,6 +1540,7 @@
 		};
 		7ACDD3D7197D6E5700373DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7F7AB00A5C41A2BF7926AC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1496,8 +1550,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1505,13 +1559,14 @@
 		};
 		7ACDD3D8197D6E5700373DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7F7AB00A5C41A2BF7926AC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Prefix.pch";
-				INFOPLIST_FILE = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
