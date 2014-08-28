@@ -512,6 +512,7 @@
 		7A15C833197C6E6E00B0DD69 /* sanFran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sanFran.jpg; path = "ShareKit Demo App/sanFran.jpg"; sourceTree = "<group>"; };
 		7A15C83A197C6FC500B0DD69 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
 		7A3C2F401996DDBA00CEBBFA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7ABAAE8219AF226E005C344F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App (CocoaPods).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACDD3BB197D6E5400373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7ACDD3BF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareKit Demo App (CocoaPods)-Prefix.pch"; sourceTree = "<group>"; };
@@ -580,6 +581,7 @@
 		7A15C6F2197C5E2800B0DD69 = {
 			isa = PBXGroup;
 			children = (
+				7ABAAE8219AF226E005C344F /* .travis.yml */,
 				7A15C744197C654F00B0DD69 /* Submodules */,
 				7A15C704197C5E2800B0DD69 /* ShareKit Demo App */,
 				7A15C71D197C5E2800B0DD69 /* ShareKit Demo AppTests */,
