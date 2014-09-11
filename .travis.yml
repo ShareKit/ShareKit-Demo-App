@@ -6,10 +6,12 @@ language: objective-c
 before_install:
 - git submodule update --init --recursive
 
+script:
+
 #build the demo app (Git Submodule)
 
-xctool -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
 #build the demo app (CocoaPods)
 
-xctool -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App (CocoaPods)" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App (CocoaPods)" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
