@@ -1,7 +1,4 @@
 language: objective-c
-#xcode_workspace: "ShareKit Demo App.xcworkspace"
-#xcode_sdk:
-#xcode_scheme: "ShareKit Demo App"
 
 before_install:
 - git submodule update --init --recursive
