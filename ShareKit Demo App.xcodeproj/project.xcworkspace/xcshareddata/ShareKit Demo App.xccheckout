@@ -10,31 +10,151 @@
 	<string>ShareKit Demo App</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0BEA0E4E-2E09-481A-8655-8B8A82146A01</key>
+		<key>084B8B66B431AB2CE56EF29B6ABDC4A6230348BA</key>
+		<string>git://github.com/bufferapp/buffer-ios-sdk.git</string>
+		<key>09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3</key>
+		<string>https://github.com/evernote/evernote-sdk-ios.git</string>
+		<key>0BBB7C39514722930913C7C88E5E37E60BBCEE85</key>
+		<string>https://github.com/JJSaccolo/UIActivityIndicator-for-SDWebImage.git</string>
+		<key>210019CBE105A1FC457ED95DB960DAD2B36507BC</key>
+		<string>git://github.com/Pocket/Pocket-ObjC-SDK.git</string>
+		<key>31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4</key>
 		<string>https://github.com/ShareKit/ShareKit-Demo-App.git</string>
+		<key>346E86F1A54428F8B3EDD72E38D761EB192E2EBB</key>
+		<string>https://github.com/ShareKit/ShareKit.git</string>
+		<key>753F406819D6B488A34E475EDD79CABA66B07973</key>
+		<string>https://github.com/pyke369/PKMultipartInputStream.git</string>
+		<key>A890578383E3DB663F7805E7374F935F780CBAD4</key>
+		<string>git://github.com/jakemdunn/google-api-objectivec-client.git</string>
+		<key>C16576B571172538D95183F9515DC5DB064EAF7F</key>
+		<string>https://github.com/soffes/sskeychain.git</string>
+		<key>E28E36D423EC87798E52E2BF482E9F7A1E6479D6</key>
+		<string>https://github.com/rs/SDWebImage.git</string>
+		<key>E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357</key>
+		<string>https://github.com/soffes/SAMTextView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ShareKit Demo App/ShareKit Demo App.xcodeproj/project.xcworkspace</string>
+	<string>ShareKit Demo App.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0BEA0E4E-2E09-481A-8655-8B8A82146A01</key>
-		<string>../../..</string>
+		<key>084B8B66B431AB2CE56EF29B6ABDC4A6230348BA</key>
+		<string>../..Submodules/ShareKit/Submodules/buffer-ios-sdk</string>
+		<key>09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3</key>
+		<string>../..Submodules/ShareKit/Submodules/evernote-ios-sdk</string>
+		<key>0BBB7C39514722930913C7C88E5E37E60BBCEE85</key>
+		<string>../..Submodules/ShareKit/Submodules/UIActivityIndicator-for-SDWebImage</string>
+		<key>210019CBE105A1FC457ED95DB960DAD2B36507BC</key>
+		<string>../..Submodules/ShareKit/Submodules/Pocket-ObjC-SDK</string>
+		<key>31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4</key>
+		<string>../..</string>
+		<key>346E86F1A54428F8B3EDD72E38D761EB192E2EBB</key>
+		<string>../..Submodules/ShareKit</string>
+		<key>753F406819D6B488A34E475EDD79CABA66B07973</key>
+		<string>../..Submodules/ShareKit/Submodules/PKMultipartInputStream</string>
+		<key>A890578383E3DB663F7805E7374F935F780CBAD4</key>
+		<string>../..Submodules/ShareKit/Submodules/google-api-objectivec</string>
+		<key>C16576B571172538D95183F9515DC5DB064EAF7F</key>
+		<string>../..Submodules/ShareKit/Submodules/sskeychain</string>
+		<key>E28E36D423EC87798E52E2BF482E9F7A1E6479D6</key>
+		<string>../..Submodules/ShareKit/Submodules/SDWebImage</string>
+		<key>E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357</key>
+		<string>../..Submodules/ShareKit/Submodules/samtextview</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ShareKit/ShareKit-Demo-App.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0BEA0E4E-2E09-481A-8655-8B8A82146A01</string>
+	<string>31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0BEA0E4E-2E09-481A-8655-8B8A82146A01</string>
+			<string>084B8B66B431AB2CE56EF29B6ABDC4A6230348BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>buffer-ios-sdk</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>evernote-ios-sdk</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A890578383E3DB663F7805E7374F935F780CBAD4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>google-api-objectivec</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>753F406819D6B488A34E475EDD79CABA66B07973</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PKMultipartInputStream</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>210019CBE105A1FC457ED95DB960DAD2B36507BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pocket-ObjC-SDK</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357</string>
+			<key>IDESourceControlWCCName</key>
+			<string>samtextview</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E28E36D423EC87798E52E2BF482E9F7A1E6479D6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SDWebImage</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>346E86F1A54428F8B3EDD72E38D761EB192E2EBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ShareKit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ShareKit-Demo-App</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C16576B571172538D95183F9515DC5DB064EAF7F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sskeychain</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0BBB7C39514722930913C7C88E5E37E60BBCEE85</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIActivityIndicator-for-SDWebImage</string>
 		</dict>
 	</array>
 </dict>
