@@ -9,7 +9,7 @@ pod 'ShareKit'
 
 ### For development
 #pod 'ShareKit', :path => '../'
-#pod 'ShareKit', :podspec => '~/Documents/GitHub/ShareKit'
+#pod 'ShareKit', :podspec => '~/Documents/GitHub/ShareKit-Demo-App/Submodules/ShareKit/ShareKit.podspec'
 
 ### Usually not needed
 link_with 'ShareKit Demo App (CocoaPods)'
