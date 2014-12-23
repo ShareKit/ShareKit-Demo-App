@@ -142,9 +142,24 @@
     
     item.tags = [NSArray arrayWithObjects:@"file share", @"sharekit", nil];
     //item.dropboxDestinationDirectory = @"/testDir";
-	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+    
     [SHK setRootViewController:self];
-	[actionSheet showFromToolbar:self.navigationController.toolbar];
+    
+    if (NSClassFromString(@"UIAlertController")) {
+        
+        SHKAlertController *alertController = [SHKAlertController actionSheetForItem:item];
+        
+        [alertController setModalPresentationStyle:UIModalPresentationPopover];
+        UIPopoverPresentationController *popPresenter = [alertController popoverPresentationController];
+        popPresenter.sourceView = [self.tableView cellForRowAtIndexPath:indexPath];
+        popPresenter.sourceRect = [self.tableView cellForRowAtIndexPath:indexPath].bounds;
+        [self presentViewController:alertController animated:YES completion:nil];
+        
+    } else {
+        
+        SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+        [actionSheet showFromToolbar:self.navigationController.toolbar];
+    }
 }
 
 #pragma mark UITableViewDataSource

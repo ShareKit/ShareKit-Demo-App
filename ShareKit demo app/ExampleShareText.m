@@ -77,9 +77,22 @@
 	
 	SHKItem *item = [SHKItem text:text];
     item.tags = [NSArray arrayWithObjects:@"sharekit", @"testing", @"text example", nil];
-	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
-	[SHK setRootViewController:self];
-	[actionSheet showFromToolbar:self.navigationController.toolbar];
+    [SHK setRootViewController:self];
+    
+    if (NSClassFromString(@"UIAlertController")) {
+        
+        SHKAlertController *alertController = [SHKAlertController actionSheetForItem:item];
+        
+        [alertController setModalPresentationStyle:UIModalPresentationPopover];
+        UIPopoverPresentationController *popPresenter = [alertController popoverPresentationController];
+        popPresenter.barButtonItem = self.toolbarItems[1];
+        [self presentViewController:alertController animated:YES completion:nil];
+        
+    } else {
+        
+        SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+        [actionSheet showFromToolbar:self.navigationController.toolbar];
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation 

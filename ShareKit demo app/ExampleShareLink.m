@@ -90,9 +90,22 @@
         item = [SHKItem URL:self.webView.request.URL title:pageTitle contentType:SHKURLContentTypeWebpage];
     }
     
-	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
     [SHK setRootViewController:self];
-	[actionSheet showFromToolbar:self.navigationController.toolbar]; 
+    
+    if (NSClassFromString(@"UIAlertController")) {
+        
+        SHKAlertController *alertController = [SHKAlertController actionSheetForItem:item];
+        
+        [alertController setModalPresentationStyle:UIModalPresentationPopover];
+        UIPopoverPresentationController *popPresenter = [alertController popoverPresentationController];
+        popPresenter.barButtonItem = self.toolbarItems[1];
+        [self presentViewController:alertController animated:YES completion:nil];
+        
+    } else {
+        
+        SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+        [actionSheet showFromToolbar:self.navigationController.toolbar];
+    }
 }
 
 - (void)loadView 

@@ -302,13 +302,6 @@
 			remoteGlobalIDString = AABBED1B162F08A3009D46E4;
 			remoteInfo = VKontakte;
 		};
-		7A15C7B7197C657200B0DD69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7AC2A3A016597F4C0089ABE8;
-			remoteInfo = "Sina Weibo";
-		};
 		7A15C7B9197C657200B0DD69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
@@ -441,6 +434,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7AB5360E1552E26800171BCE;
 			remoteInfo = "Resource Bundle";
+		};
+		7A74C8A41A4981C200F1F6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A5340CA1A1F3B6100659425;
+			remoteInfo = "iso-8601-date-formatter";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -739,7 +739,6 @@
 				7A15C7B2197C657200B0DD69 /* libTumblr.a */,
 				7A15C7B4197C657200B0DD69 /* libTwitter.a */,
 				7A15C7B6197C657200B0DD69 /* libVKontakte.a */,
-				7A15C7B8197C657200B0DD69 /* libSina Weibo.a */,
 				7A15C7BA197C657200B0DD69 /* libReadability.a */,
 				7A15C7BC197C657200B0DD69 /* libHatena.a */,
 				7A15C7BE197C657200B0DD69 /* libPlurk.a */,
@@ -757,6 +756,7 @@
 				7A15C7D6197C657200B0DD69 /* libOpen in Chrome.a */,
 				7A15C7D8197C657200B0DD69 /* libOpen in 1Password.a */,
 				7A15C7DA197C657200B0DD69 /* libReadingList.a */,
+				7A74C8A51A4981C200F1F6B0 /* libiso-8601-date-formatter.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1141,13 +1141,6 @@
 			remoteRef = 7A15C7B5197C657200B0DD69 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7A15C7B8197C657200B0DD69 /* libSina Weibo.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libSina Weibo.a";
-			remoteRef = 7A15C7B7197C657200B0DD69 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		7A15C7BA197C657200B0DD69 /* libReadability.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1265,6 +1258,13 @@
 			fileType = archive.ar;
 			path = libReadingList.a;
 			remoteRef = 7A15C7D9197C657200B0DD69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7A74C8A51A4981C200F1F6B0 /* libiso-8601-date-formatter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libiso-8601-date-formatter.a";
+			remoteRef = 7A74C8A41A4981C200F1F6B0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
