@@ -1,5 +1,6 @@
 ShareKit-Demo-App
 =================
+[![Build Status](https://travis-ci.org/ShareKit/ShareKit-Demo-App.svg?branch=master)](https://travis-ci.org/ShareKit/ShareKit-Demo-App)
 
 The demo app for [ShareKit iOS library] (https://github.com/sharekit/sharekit). ShareKit allows you to share content easily (URLs, text, images, files) to various web services (Facebook, Twitter, Tumblr, YouTube and many, many more) without studying their APIs, handling authorization etc. For more info check [ShareKit's readme](https://github.com/ShareKit/ShareKit) or study the demo.
 
