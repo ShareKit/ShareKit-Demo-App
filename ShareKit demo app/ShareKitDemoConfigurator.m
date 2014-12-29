@@ -9,6 +9,7 @@
 /*** For more information about particular setting see comments in DefaultSHKConfigurator.m ***/
 
 #import "ShareKitDemoConfigurator.h"
+#import <UIKit/UIKit.h>
 
 @implementation ShareKitDemoConfigurator
 
