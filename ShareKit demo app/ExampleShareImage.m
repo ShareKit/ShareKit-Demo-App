@@ -28,6 +28,8 @@
 #import "ExampleShareImage.h"
 #import "ShareKit.h"
 
+#define SHARE_LARGE_IMAGE 1
+
 @interface ExampleShareImage ()
 
 @property (nonatomic, retain) UIImageView *imageView;
@@ -59,7 +61,11 @@
 {
 	[super loadView];
 	
-	self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sanFran.jpg"]];
+    if (SHARE_LARGE_IMAGE) {
+        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"largeImage.JPG"]];
+    } else {
+        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sanFran.jpg"]];
+    }
 	
 	self.imageView.frame = CGRectMake(0,0,self.view.bounds.size.width,self.view.bounds.size.height);
 	
