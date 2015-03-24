@@ -38,6 +38,8 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(authDidFinish:)
                                                  name:@"SHKAuthDidFinish"
