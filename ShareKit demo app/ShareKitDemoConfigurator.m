@@ -234,6 +234,11 @@
     return @"https://imgur.com";
 }
 
+///only show instagram in the application list (instead of Instagram plus any other public/jpeg-conforming apps)
+- (NSNumber *)instagramOnly {
+    return [NSNumber numberWithBool:NO];
+}
+
 - (NSString *)pinterestClientId {
     return @"1437704";
 }

@@ -1,0 +1,100 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : 0,
+    "31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4" : 0,
+    "09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3" : 0,
+    "346E86F1A54428F8B3EDD72E38D761EB192E2EBB" : 0,
+    "A890578383E3DB663F7805E7374F935F780CBAD4" : 0,
+    "C16576B571172538D95183F9515DC5DB064EAF7F" : 0,
+    "0BBB7C39514722930913C7C88E5E37E60BBCEE85" : 0,
+    "753F406819D6B488A34E475EDD79CABA66B07973" : 0,
+    "45E4FE657A78EE4C3029D56A3C00E475C18414E6" : 0,
+    "084B8B66B431AB2CE56EF29B6ABDC4A6230348BA" : 0,
+    "E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357" : 0,
+    "210019CBE105A1FC457ED95DB960DAD2B36507BC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D87D3AF3-EA25-4965-8EDA-5C8415563496",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/SDWebImage",
+    "31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4" : "ShareKit-Demo-App",
+    "09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/evernote-ios-sdk",
+    "346E86F1A54428F8B3EDD72E38D761EB192E2EBB" : "ShareKit-Demo-App\/Submodules\/ShareKit",
+    "A890578383E3DB663F7805E7374F935F780CBAD4" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/google-api-objectivec",
+    "C16576B571172538D95183F9515DC5DB064EAF7F" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/sskeychain",
+    "0BBB7C39514722930913C7C88E5E37E60BBCEE85" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/UIActivityIndicator-for-SDWebImage",
+    "753F406819D6B488A34E475EDD79CABA66B07973" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/PKMultipartInputStream",
+    "45E4FE657A78EE4C3029D56A3C00E475C18414E6" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/iso-8601-date-formatter",
+    "084B8B66B431AB2CE56EF29B6ABDC4A6230348BA" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/buffer-ios-sdk",
+    "E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/samtextview",
+    "210019CBE105A1FC457ED95DB960DAD2B36507BC" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/Pocket-ObjC-SDK"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ShareKit Demo App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ShareKit Demo App.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/bufferapp\/buffer-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "084B8B66B431AB2CE56EF29B6ABDC4A6230348BA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/evernote\/evernote-sdk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JJSaccolo\/UIActivityIndicator-for-SDWebImage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BBB7C39514722930913C7C88E5E37E60BBCEE85"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/Pocket\/Pocket-ObjC-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "210019CBE105A1FC457ED95DB960DAD2B36507BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ShareKit\/ShareKit-Demo-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31E9EC73B9EFF3D6587C8A4B6018350CC58F4EB4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ShareKit\/ShareKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "346E86F1A54428F8B3EDD72E38D761EB192E2EBB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/boredzo\/iso-8601-date-formatter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45E4FE657A78EE4C3029D56A3C00E475C18414E6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pyke369\/PKMultipartInputStream.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "753F406819D6B488A34E475EDD79CABA66B07973"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/jakemdunn\/google-api-objectivec-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A890578383E3DB663F7805E7374F935F780CBAD4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/soffes\/sskeychain.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C16576B571172538D95183F9515DC5DB064EAF7F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rs\/SDWebImage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E28E36D423EC87798E52E2BF482E9F7A1E6479D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/soffes\/SAMTextView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357"
+    }
+  ]
+}
