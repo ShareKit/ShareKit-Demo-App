@@ -12,6 +12,7 @@
     "C16576B571172538D95183F9515DC5DB064EAF7F" : 0,
     "0BBB7C39514722930913C7C88E5E37E60BBCEE85" : 0,
     "753F406819D6B488A34E475EDD79CABA66B07973" : 0,
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0,
     "45E4FE657A78EE4C3029D56A3C00E475C18414E6" : 0,
     "084B8B66B431AB2CE56EF29B6ABDC4A6230348BA" : 0,
     "E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357" : 0,
@@ -27,6 +28,7 @@
     "C16576B571172538D95183F9515DC5DB064EAF7F" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/sskeychain",
     "0BBB7C39514722930913C7C88E5E37E60BBCEE85" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/UIActivityIndicator-for-SDWebImage",
     "753F406819D6B488A34E475EDD79CABA66B07973" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/PKMultipartInputStream",
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/google-api-objectivec-client\/",
     "45E4FE657A78EE4C3029D56A3C00E475C18414E6" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/iso-8601-date-formatter",
     "084B8B66B431AB2CE56EF29B6ABDC4A6230348BA" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/buffer-ios-sdk",
     "E6ED3CB6BB070917312B0E7D16CDDE6AC88A8357" : "ShareKit-Demo-App\/Submodules\/ShareKit\/Submodules\/samtextview",
@@ -85,6 +87,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/soffes\/sskeychain.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C16576B571172538D95183F9515DC5DB064EAF7F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/google-api-objectivec-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rs\/SDWebImage.git",
