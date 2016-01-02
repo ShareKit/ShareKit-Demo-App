@@ -134,6 +134,9 @@
                 NSData *file = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMapped error:&error];
                 item = [SHKItem fileData:file filename:@"sanFran.jpg" title:@"San Francisco"];
             }
+            
+            //only for Pinterest sharer testing
+            item.URL = [NSURL URLWithString:@"https://www.apple.com"];
             break;
         }
         default:

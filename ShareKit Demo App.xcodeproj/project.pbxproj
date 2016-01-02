@@ -54,8 +54,6 @@
 		7A15C822197C67C800B0DD69 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C818197C67C700B0DD69 /* GooglePlus.bundle */; };
 		7A15C823197C67C800B0DD69 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C819197C67C700B0DD69 /* GooglePlus.framework */; };
 		7A15C824197C67C800B0DD69 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C81A197C67C700B0DD69 /* LiveSDK.framework */; };
-		7A15C825197C67C800B0DD69 /* Pinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C81C197C67C700B0DD69 /* Pinterest.framework */; };
-		7A15C826197C67C800B0DD69 /* PinterestSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C81E197C67C700B0DD69 /* PinterestSDKResources.bundle */; };
 		7A15C82A197C684700B0DD69 /* LiveSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C81A197C67C700B0DD69 /* LiveSDK.framework */; };
 		7A15C82C197C6C2300B0DD69 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C82B197C6C2300B0DD69 /* SafariServices.framework */; };
 		7A15C82E197C6DEF00B0DD69 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82D197C6DEF00B0DD69 /* MainWindow.xib */; };
@@ -451,6 +449,20 @@
 			remoteGlobalIDString = 7A5340CA1A1F3B6100659425;
 			remoteInfo = "iso-8601-date-formatter";
 		};
+		7AE8A1DC1C3327CB00CE61DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE8A13B1C32F91900CE61DE;
+			remoteInfo = "Pinterest SDK";
+		};
+		7AE8A1DE1C3327CB00CE61DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE8A1931C3318C700CE61DE;
+			remoteInfo = AFNetworking;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -511,8 +523,6 @@
 		7A15C818197C67C700B0DD69 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = Submodules/ShareKit/Frameworks/GooglePlus.bundle; sourceTree = "<group>"; };
 		7A15C819197C67C700B0DD69 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = Submodules/ShareKit/Frameworks/GooglePlus.framework; sourceTree = "<group>"; };
 		7A15C81A197C67C700B0DD69 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveSDK.framework; path = Submodules/ShareKit/Frameworks/LiveSDK.framework; sourceTree = "<group>"; };
-		7A15C81C197C67C700B0DD69 /* Pinterest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pinterest.framework; sourceTree = "<group>"; };
-		7A15C81E197C67C700B0DD69 /* PinterestSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PinterestSDKResources.bundle; sourceTree = "<group>"; };
 		7A15C82B197C6C2300B0DD69 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		7A15C82D197C6DEF00B0DD69 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		7A15C82F197C6E6E00B0DD69 /* demo_audio_share.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = demo_audio_share.mp3; path = "ShareKit Demo App/demo_audio_share.mp3"; sourceTree = "<group>"; };
@@ -545,7 +555,6 @@
 				7A15C808197C670700B0DD69 /* AddressBook.framework in Frameworks */,
 				7A15C806197C66FE00B0DD69 /* CoreMotion.framework in Frameworks */,
 				7A15C804197C66F700B0DD69 /* CoreText.framework in Frameworks */,
-				7A15C825197C67C800B0DD69 /* Pinterest.framework in Frameworks */,
 				7A15C802197C66F000B0DD69 /* AssetsLibrary.framework in Frameworks */,
 				7A15C800197C66E900B0DD69 /* MediaPlayer.framework in Frameworks */,
 				7A15C7FE197C66DF00B0DD69 /* QuartzCore.framework in Frameworks */,
@@ -623,7 +632,6 @@
 				7A15C818197C67C700B0DD69 /* GooglePlus.bundle */,
 				7A15C819197C67C700B0DD69 /* GooglePlus.framework */,
 				7A15C81A197C67C700B0DD69 /* LiveSDK.framework */,
-				7A15C81B197C67C700B0DD69 /* Pinterest.embeddedframework */,
 				7A15C809197C670F00B0DD69 /* ImageIO.framework */,
 				7A15C807197C670700B0DD69 /* AddressBook.framework */,
 				7A15C805197C66FE00B0DD69 /* CoreMotion.framework */,
@@ -769,26 +777,10 @@
 				7A15C7DA197C657200B0DD69 /* libReadingList.a */,
 				7A74C8A51A4981C200F1F6B0 /* libiso-8601-date-formatter.a */,
 				7A278EBD1A94D2C80065B351 /* libWhatsApp.a */,
+				7AE8A1DD1C3327CB00CE61DE /* libPinterest SDK.a */,
+				7AE8A1DF1C3327CB00CE61DE /* libAFNetworking.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7A15C81B197C67C700B0DD69 /* Pinterest.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				7A15C81C197C67C700B0DD69 /* Pinterest.framework */,
-				7A15C81D197C67C700B0DD69 /* Resources */,
-			);
-			name = Pinterest.embeddedframework;
-			path = Submodules/ShareKit/Frameworks/Pinterest.embeddedframework;
-			sourceTree = "<group>";
-		};
-		7A15C81D197C67C700B0DD69 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7A15C81E197C67C700B0DD69 /* PinterestSDKResources.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		7A15C839197C6E8100B0DD69 /* Resources */ = {
@@ -1297,6 +1289,20 @@
 			remoteRef = 7A74C8A41A4981C200F1F6B0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		7AE8A1DD1C3327CB00CE61DE /* libPinterest SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPinterest SDK.a";
+			remoteRef = 7AE8A1DC1C3327CB00CE61DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AE8A1DF1C3327CB00CE61DE /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = 7AE8A1DE1C3327CB00CE61DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1318,7 +1324,6 @@
 				7A15C834197C6E6E00B0DD69 /* demo_audio_share.mp3 in Resources */,
 				7A15C711197C5E2800B0DD69 /* Images.xcassets in Resources */,
 				7A15C741197C613900B0DD69 /* RootViewController.xib in Resources */,
-				7A15C826197C67C800B0DD69 /* PinterestSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1489,6 +1494,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1529,6 +1535,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1549,18 +1556,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Submodules/ShareKit/Frameworks",
-					"$(PROJECT_DIR)/Submodules/ShareKit/Frameworks/Pinterest.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareKit Demo App/ShareKit Demo App-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Submodules/**";
 				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "Submodules/**";
@@ -1573,18 +1578,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Submodules/ShareKit/Frameworks",
-					"$(PROJECT_DIR)/Submodules/ShareKit/Frameworks/Pinterest.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareKit Demo App/ShareKit Demo App-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Submodules/**";
 				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "Submodules/**";

@@ -28,7 +28,7 @@
 #import "ExampleShareLink.h"
 #import "ShareKit.h"
 
-#define TRY_ENHANCED_URL_SHARE 0
+#define TRY_ENHANCED_URL_SHARE 1
 
 @interface ExampleShareLink () <UIWebViewDelegate>
 
@@ -73,10 +73,10 @@
     SHKItem *item = nil;
     if (TRY_ENHANCED_URL_SHARE) {
         
-        item = [SHKItem URL:[NSURL URLWithString:@"http://www.youtube.com/watch?v=KaOC9danxNo"] title:@"Planet Earth is blue" contentType:SHKURLContentTypeVideo];
-        item.URL = [NSURL URLWithString:@"http://www.youtube.com/watch?v=KaOC9danxNo"];
+        item = [SHKItem URL:[NSURL URLWithString:@"https://www.youtube.com/watch?v=KaOC9danxNo"] title:@"Planet Earth is blue" contentType:SHKURLContentTypeVideo];
+        item.URL = [NSURL URLWithString:@"https://www.youtube.com/watch?v=KaOC9danxNo"];
         item.title = @"Lorem ipsum dolor sit amet";
-        item.URLPictureURI = [NSURL URLWithString:@"http://www.state.gov/cms_images/india_tajmahal_2003_06_252.jpg"];
+        item.URLPictureURI = [NSURL URLWithString:@"https://s-media-cache-ak0.pinimg.com/736x/3c/cb/27/3ccb278294d511a14c9c113abff830f6.jpg"];
         item.URLDescription = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et posuere mi.";
         item.tags = [NSArray arrayWithObjects:@"apple inc.",@"computers",@"mac", nil];
         

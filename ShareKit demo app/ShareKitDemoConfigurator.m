@@ -239,8 +239,12 @@
     return [NSNumber numberWithBool:NO];
 }
 
-- (NSString *)pinterestClientId {
-    return @"1437704";
+- (NSNumber *)pinterestAllowUnauthenticatedPins {
+    return @NO;
+}
+
+- (NSString *)pinterestAppId {
+    return @"4809677768964981310";
 }
 
 #pragma mark - UI Configuration : Basic

@@ -15,6 +15,7 @@
 #import "EvernoteSDK.h"
 //#import "SHKBuffer.h"
 #import "PocketAPI.h"
+#import "PDKClient.h"
 
 #import "SHKConfiguration.h"
 #import "ShareKitDemoConfigurator.h"
@@ -86,10 +87,11 @@
         return [[EvernoteSession sharedSession] canHandleOpenURL:url];
     } else if ([scheme hasPrefix:[NSString stringWithFormat:@"buffer%@", SHKCONFIG(bufferClientID)]]) {
         //return [SHKBuffer handleOpenURL:url];
-    }else if ([scheme hasPrefix:[NSString stringWithFormat:@"pocketapp%@", pocketPrefixKeyPart]]) {
+    } else if ([scheme hasPrefix:[NSString stringWithFormat:@"pocketapp%@", pocketPrefixKeyPart]]) {
         return [[PocketAPI sharedAPI] handleOpenURL:url];
+    } else if ([scheme hasPrefix:[NSString stringWithFormat:@"pdk%@", SHKCONFIG(pinterestAppId)]]) {
+        [[PDKClient sharedInstance] handleCallbackURL:url];
     }
-
     
     return YES;
 }
