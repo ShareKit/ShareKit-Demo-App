@@ -15,7 +15,10 @@
 #import "EvernoteSDK.h"
 //#import "SHKBuffer.h"
 #import "PocketAPI.h"
+
+#if !COCOAPODS
 #import "PDKClient.h"
+#endif
 
 #import "SHKConfiguration.h"
 #import "ShareKitDemoConfigurator.h"
@@ -89,9 +92,12 @@
         //return [SHKBuffer handleOpenURL:url];
     } else if ([scheme hasPrefix:[NSString stringWithFormat:@"pocketapp%@", pocketPrefixKeyPart]]) {
         return [[PocketAPI sharedAPI] handleOpenURL:url];
-    } else if ([scheme hasPrefix:[NSString stringWithFormat:@"pdk%@", SHKCONFIG(pinterestAppId)]]) {
-        [[PDKClient sharedInstance] handleCallbackURL:url];
     }
+    #if !COCOAPODS
+    else if ([scheme hasPrefix:[NSString stringWithFormat:@"pdk%@", SHKCONFIG(pinterestAppId)]]) {
+        return [[PDKClient sharedInstance] handleCallbackURL:url];
+    }
+#endif
     
     return YES;
 }
