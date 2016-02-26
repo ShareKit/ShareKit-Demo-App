@@ -6,5 +6,5 @@ The demo app for [ShareKit iOS library] (https://github.com/sharekit/sharekit). 
 
 There are two targets in the demo app:
 
-1. **"ShareKit Demo App"** target demonstrates ShareKit library added to the app using Xcode subproject and git submodules. This target is ready to run right after you clone. *Use this target if you quickly want to get a preview of what ShareKit is.*
+1. **"ShareKit Demo App"** target demonstrates ShareKit library added to the app using Xcode subproject and git submodules. This target is ready to run right after you clone. *Use this target if you quickly want to get a preview of what ShareKit is.* If you encounter missing files during build, make sure to run `git submodule update --recursive`, so that ShareKit submodule gets what it needs
 2. **"ShareKit Demo App (CocoaPods)"** target demonstrates ShareKit library added to the app using CocoaPods. Tu run this target you have to open terminal.app, navigate to the cloned demo app directory and run `pod install` first. For more info about CocoaPods library dependecy manager check [their official web](http://cocoapods.org).
