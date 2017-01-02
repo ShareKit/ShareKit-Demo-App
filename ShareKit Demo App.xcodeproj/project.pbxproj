@@ -49,7 +49,6 @@
 		7A15C808197C670700B0DD69 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C807197C670700B0DD69 /* AddressBook.framework */; };
 		7A15C80A197C670F00B0DD69 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C809197C670F00B0DD69 /* ImageIO.framework */; };
 		7A15C81F197C67C700B0DD69 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C815197C67C700B0DD69 /* DropboxSDK.framework */; };
-		7A15C820197C67C800B0DD69 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C816197C67C700B0DD69 /* FacebookSDK.framework */; };
 		7A15C821197C67C800B0DD69 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C817197C67C700B0DD69 /* GoogleOpenSource.framework */; };
 		7A15C822197C67C800B0DD69 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C818197C67C700B0DD69 /* GooglePlus.bundle */; };
 		7A15C823197C67C800B0DD69 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C819197C67C700B0DD69 /* GooglePlus.framework */; };
@@ -80,6 +79,7 @@
 		7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */; };
 		7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C702197C5E2800B0DD69 /* UIKit.framework */; };
 		7ACDD3BC197D6E5400373DC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ACDD3BA197D6E5400373DC3 /* InfoPlist.strings */; };
+		7AE39AFA1E1B007200129820 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE39AF91E1B007200129820 /* FacebookSDK.framework */; };
 		7AE8A0531C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8A0501C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib */; };
 		7AE8A0841C2B69E700CE61DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C710197C5E2800B0DD69 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -518,7 +518,6 @@
 		7A15C807197C670700B0DD69 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		7A15C809197C670F00B0DD69 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		7A15C815197C67C700B0DD69 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = Submodules/ShareKit/Frameworks/DropboxSDK.framework; sourceTree = "<group>"; };
-		7A15C816197C67C700B0DD69 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Submodules/ShareKit/Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
 		7A15C817197C67C700B0DD69 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = Submodules/ShareKit/Frameworks/GoogleOpenSource.framework; sourceTree = "<group>"; };
 		7A15C818197C67C700B0DD69 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = Submodules/ShareKit/Frameworks/GooglePlus.bundle; sourceTree = "<group>"; };
 		7A15C819197C67C700B0DD69 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = Submodules/ShareKit/Frameworks/GooglePlus.framework; sourceTree = "<group>"; };
@@ -540,6 +539,7 @@
 		7ACDD3D1197D6E5500373DC3 /* ShareKit Demo App (CocoaPods)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKit Demo App (CocoaPods)Tests-Info.plist"; sourceTree = "<group>"; };
 		7ACDD3D3197D6E5500373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7ACDD3D5197D6E5500373DC3 /* ShareKit_Demo_App__CocoaPods_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareKit_Demo_App__CocoaPods_Tests.m; sourceTree = "<group>"; };
+		7AE39AF91E1B007200129820 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Submodules/ShareKit/Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
 		7AE8A0501C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec-client/Deps/gtm-oauth2/Source/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
 		9D22EBD91737A7B71B223511 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C74A0F6471474BAA9279AC7A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -570,12 +570,12 @@
 				7A15C7EA197C664600B0DD69 /* CoreMedia.framework in Frameworks */,
 				7A15C7E8197C663D00B0DD69 /* MobileCoreServices.framework in Frameworks */,
 				7A15C81F197C67C700B0DD69 /* DropboxSDK.framework in Frameworks */,
+				7AE39AFA1E1B007200129820 /* FacebookSDK.framework in Frameworks */,
 				7A15C7E6197C663500B0DD69 /* MessageUI.framework in Frameworks */,
 				7A15C7E4197C662E00B0DD69 /* Security.framework in Frameworks */,
 				7A15C7E2197C662200B0DD69 /* SystemConfiguration.framework in Frameworks */,
 				7A15C821197C67C800B0DD69 /* GoogleOpenSource.framework in Frameworks */,
 				7A15C7DF197C65B800B0DD69 /* libShareKit.a in Frameworks */,
-				7A15C820197C67C800B0DD69 /* FacebookSDK.framework in Frameworks */,
 				7A15C824197C67C800B0DD69 /* LiveSDK.framework in Frameworks */,
 				7A15C823197C67C800B0DD69 /* GooglePlus.framework in Frameworks */,
 				7A15C701197C5E2800B0DD69 /* CoreGraphics.framework in Frameworks */,
@@ -625,9 +625,9 @@
 		7A15C6FD197C5E2800B0DD69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AE39AF91E1B007200129820 /* FacebookSDK.framework */,
 				7A15C82B197C6C2300B0DD69 /* SafariServices.framework */,
 				7A15C815197C67C700B0DD69 /* DropboxSDK.framework */,
-				7A15C816197C67C700B0DD69 /* FacebookSDK.framework */,
 				7A15C817197C67C700B0DD69 /* GoogleOpenSource.framework */,
 				7A15C818197C67C700B0DD69 /* GooglePlus.bundle */,
 				7A15C819197C67C700B0DD69 /* GooglePlus.framework */,
@@ -911,8 +911,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SHK;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Vilém Kurz";
+				TargetAttributes = {
+					7A15C6FA197C5E2800B0DD69 = {
+						ProvisioningStyle = Manual;
+					};
+					7ACDD3B2197D6E5400373DC3 = {
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = 7A15C6F6197C5E2800B0DD69 /* Build configuration list for PBXProject "ShareKit Demo App" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1489,15 +1497,20 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1510,7 +1523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1530,21 +1543,26 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1556,6 +1574,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1568,6 +1588,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "Submodules/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1578,6 +1600,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1590,6 +1614,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "Submodules/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1601,6 +1627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Prefix.pch";
@@ -1609,7 +1636,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1622,11 +1649,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Prefix.pch";
 				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

@@ -26,11 +26,11 @@
 	[super loadView];
 	
 	self.toolbarItems = @[[[UIBarButtonItem alloc] initWithTitle:SHKLocalizedString(@"Accounts")
-                                                           style:UIBarButtonItemStyleBordered
+                                                           style:UIBarButtonItemStylePlain
                                                           target:self
                                                           action:@selector(showAccounts)],
                           [[UIBarButtonItem alloc] initWithTitle:SHKLocalizedString(@"Uploads")
-                                                           style:UIBarButtonItemStyleBordered
+                                                           style:UIBarButtonItemStylePlain
                                                           target:self
                                                           action:@selector(showUploads)]];
 
