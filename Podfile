@@ -1,16 +1,14 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
 
-### For regular projects
-pod 'ShareKit'
+target 'ShareKit Demo App (CocoaPods)' do
+    ### For regular projects
+    #pod 'ShareKit'
 
-### Alternatively use some sharers only
-#pod 'ShareKit/Facebook'
-#pod 'ShareKit/Twitter'
+    ### Alternatively use some sharers only
+    #pod 'ShareKit/Facebook'
+    #pod 'ShareKit/Twitter'
 
-### For development
-#pod 'ShareKit', :path => '../'
-#pod 'ShareKit', :podspec => '~/Documents/GitHub/ShareKit-Demo-App/Submodules/ShareKit/ShareKit.podspec'
-
-### Usually not needed
-link_with 'ShareKit Demo App (CocoaPods)'
+    ### For development
+    pod 'ShareKit', :path => 'Submodules/ShareKit'
+end
 

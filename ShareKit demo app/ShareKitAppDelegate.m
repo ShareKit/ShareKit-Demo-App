@@ -9,8 +9,8 @@
 #import "ShareKitAppDelegate.h"
 #import "RootViewController.h"
 
-#import "SHKDropbox.h"
-#import "SHKGooglePlus.h"
+//#import "SHKDropbox.h"
+//#import "SHKGooglePlus.h"
 #import "SHKFacebook.h"
 #import "EvernoteSDK.h"
 //#import "SHKBuffer.h"
@@ -83,9 +83,11 @@
     if ([scheme hasPrefix:[NSString stringWithFormat:@"fb%@", SHKCONFIG(facebookAppId)]]) {
         return [SHKFacebook handleOpenURL:url sourceApplication:sourceApplication];
     } else if ([[scheme lowercaseString] isEqualToString:[bundleID lowercaseString]]) {
-        return [SHKGooglePlus handleURL:url sourceApplication:sourceApplication annotation:annotation];
+        //return [SHKGooglePlus handleURL:url sourceApplication:sourceApplication annotation:annotation];
+        return false;
     } else if ([scheme hasPrefix:[NSString stringWithFormat:@"db-%@", SHKCONFIG(dropboxAppKey)]]) {
-        return [SHKDropbox handleOpenURL:url];
+        //return [SHKDropbox handleOpenURL:url];
+        return false;
     } else if ([[NSString stringWithFormat:@"en-%@", [[EvernoteSession sharedSession] consumerKey]] isEqualToString:[url scheme]]) {
         return [[EvernoteSession sharedSession] canHandleOpenURL:url];
     } else if ([scheme hasPrefix:[NSString stringWithFormat:@"buffer%@", SHKCONFIG(bufferClientID)]]) {

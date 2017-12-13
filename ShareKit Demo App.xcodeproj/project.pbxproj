@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73E1B9FCDFDF44E7A56A1997 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C74A0F6471474BAA9279AC7A /* libPods.a */; };
+		7858374EEF1BF0FCC8CBB6EA /* libPods-ShareKit Demo App (CocoaPods).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF8A35A02D826DD68A2D4C /* libPods-ShareKit Demo App (CocoaPods).a */; };
 		7A101A2C197FCFB600396A3B /* ExampleShareFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C72E197C613900B0DD69 /* ExampleShareFile.m */; };
 		7A101A2D197FCFBA00396A3B /* ExampleShareImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C730197C613900B0DD69 /* ExampleShareImage.m */; };
 		7A101A2E197FCFBD00396A3B /* ExampleShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C732197C613900B0DD69 /* ExampleShareLink.m */; };
@@ -466,7 +466,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A8BB8C3E0940F7F7CB5A352 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		04EF8A35A02D826DD68A2D4C /* libPods-ShareKit Demo App (CocoaPods).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareKit Demo App (CocoaPods).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15C6FB197C5E2800B0DD69 /* ShareKit Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15C6FE197C5E2800B0DD69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -541,8 +541,8 @@
 		7ACDD3D5197D6E5500373DC3 /* ShareKit_Demo_App__CocoaPods_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareKit_Demo_App__CocoaPods_Tests.m; sourceTree = "<group>"; };
 		7AE39AF91E1B007200129820 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Submodules/ShareKit/Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
 		7AE8A0501C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec-client/Deps/gtm-oauth2/Source/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
-		9D22EBD91737A7B71B223511 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C74A0F6471474BAA9279AC7A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B6DFFFD5AB5354E349EC89 /* Pods-ShareKit Demo App (CocoaPods).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareKit Demo App (CocoaPods).debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods).debug.xcconfig"; sourceTree = "<group>"; };
+		9D98D5C97E827B641EDFA58B /* Pods-ShareKit Demo App (CocoaPods).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareKit Demo App (CocoaPods).release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -591,7 +591,7 @@
 				7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */,
 				7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */,
 				7ACDD3B4197D6E5400373DC3 /* Foundation.framework in Frameworks */,
-				73E1B9FCDFDF44E7A56A1997 /* libPods.a in Frameworks */,
+				7858374EEF1BF0FCC8CBB6EA /* libPods-ShareKit Demo App (CocoaPods).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,7 +609,7 @@
 				7ACDD3CF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)Tests */,
 				7A15C6FD197C5E2800B0DD69 /* Frameworks */,
 				7A15C6FC197C5E2800B0DD69 /* Products */,
-				E6668706742C547E206D3B9C /* Pods */,
+				FDC7C571FD809EE67E189090 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -657,7 +657,7 @@
 				7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */,
 				7A15C702197C5E2800B0DD69 /* UIKit.framework */,
 				7A15C717197C5E2800B0DD69 /* XCTest.framework */,
-				C74A0F6471474BAA9279AC7A /* libPods.a */,
+				04EF8A35A02D826DD68A2D4C /* libPods-ShareKit Demo App (CocoaPods).a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -853,11 +853,11 @@
 			path = Submodules/ShareKit;
 			sourceTree = "<group>";
 		};
-		E6668706742C547E206D3B9C /* Pods */ = {
+		FDC7C571FD809EE67E189090 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D22EBD91737A7B71B223511 /* Pods.debug.xcconfig */,
-				3A8BB8C3E0940F7F7CB5A352 /* Pods.release.xcconfig */,
+				86B6DFFFD5AB5354E349EC89 /* Pods-ShareKit Demo App (CocoaPods).debug.xcconfig */,
+				9D98D5C97E827B641EDFA58B /* Pods-ShareKit Demo App (CocoaPods).release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -888,12 +888,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ACDD40A197D6E5700373DC3 /* Build configuration list for PBXNativeTarget "ShareKit Demo App (CocoaPods)" */;
 			buildPhases = (
-				45840EC6BD3246019F8FDB32 /* Check Pods Manifest.lock */,
+				4BEF5ECE919B505888089A05 /* [CP] Check Pods Manifest.lock */,
 				7ACDD3AF197D6E5400373DC3 /* Sources */,
 				7ACDD3B0197D6E5400373DC3 /* Frameworks */,
 				7ACDD3B1197D6E5400373DC3 /* Resources */,
-				9ECA1C81C273481FAD3AB551 /* Copy Pods Resources */,
-				767DA6F887774E30FE04074E /* Embed Pods Frameworks */,
+				B78904042D36E3E78D374546 /* [CP] Embed Pods Frameworks */,
+				F205437B4DC9C5569F8691C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -911,7 +911,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SHK;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Vilém Kurz";
 				TargetAttributes = {
 					7A15C6FA197C5E2800B0DD69 = {
@@ -1355,49 +1355,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45840EC6BD3246019F8FDB32 /* Check Pods Manifest.lock */ = {
+		4BEF5ECE919B505888089A05 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareKit Demo App (CocoaPods)-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		767DA6F887774E30FE04074E /* Embed Pods Frameworks */ = {
+		B78904042D36E3E78D374546 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods)-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9ECA1C81C273481FAD3AB551 /* Copy Pods Resources */ = {
+		F205437B4DC9C5569F8691C6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods)-resources.sh",
+				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/Resources/backArrow_black.png",
+				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib",
+				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib",
+				$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle,
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods)-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1492,14 +1501,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1538,14 +1553,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1623,7 +1644,7 @@
 		};
 		7ACDD3D7197D6E5700373DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D22EBD91737A7B71B223511 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 86B6DFFFD5AB5354E349EC89 /* Pods-ShareKit Demo App (CocoaPods).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1637,6 +1658,7 @@
 				);
 				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1645,7 +1667,7 @@
 		};
 		7ACDD3D8197D6E5700373DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8BB8C3E0940F7F7CB5A352 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 9D98D5C97E827B641EDFA58B /* Pods-ShareKit Demo App (CocoaPods).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1655,6 +1677,7 @@
 				GCC_PREFIX_HEADER = "ShareKit Demo App (CocoaPods)/ShareKit Demo App (CocoaPods)-Prefix.pch";
 				INFOPLIST_FILE = "ShareKit Demo App/ShareKit Demo App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

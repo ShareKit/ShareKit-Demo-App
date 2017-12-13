@@ -29,7 +29,7 @@
 
 #import "ShareKit.h"
 #import "SHK.h"
-#import "SHKDropbox.h"
+//#import "SHKDropbox.h"
 
 #define SHARE_FILE_WITH_PATH 1
 #define SHARE_LARGE_VIDEO 1
@@ -147,22 +147,13 @@
     //item.dropboxDestinationDirectory = @"/testDir";
     
     [SHK setRootViewController:self];
-    
-    if (NSClassFromString(@"UIAlertController")) {
-        
-        SHKAlertController *alertController = [SHKAlertController actionSheetForItem:item];
-        
-        [alertController setModalPresentationStyle:UIModalPresentationPopover];
-        UIPopoverPresentationController *popPresenter = [alertController popoverPresentationController];
-        popPresenter.sourceView = [self.tableView cellForRowAtIndexPath:indexPath];
-        popPresenter.sourceRect = [self.tableView cellForRowAtIndexPath:indexPath].bounds;
-        [self presentViewController:alertController animated:YES completion:nil];
-        
-    } else {
-        
-        SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
-        [actionSheet showFromToolbar:self.navigationController.toolbar];
-    }
+
+    SHKAlertController *alertController = [SHKAlertController actionSheetForItem:item];
+    [alertController setModalPresentationStyle:UIModalPresentationPopover];
+    UIPopoverPresentationController *popPresenter = [alertController popoverPresentationController];
+    popPresenter.sourceView = [self.tableView cellForRowAtIndexPath:indexPath];
+    popPresenter.sourceRect = [self.tableView cellForRowAtIndexPath:indexPath].bounds;
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 #pragma mark UITableViewDataSource

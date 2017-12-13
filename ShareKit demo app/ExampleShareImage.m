@@ -83,25 +83,17 @@
     item.tags = [NSArray arrayWithObjects:@"bay bridge", @"architecture", @"california", nil];
     
     //give a source rect in the coords of the view set with setRootViewController:
-    item.popOverSourceRect = [self.navigationController.toolbar convertRect:self.navigationController.toolbar.bounds toView:self.view];
+     item.popOverSourceRect = [self.navigationController.toolbar convertRect:self.navigationController.toolbar.bounds toView:self.view];
      */
 
     [SHK setRootViewController:self];
-    
-    if (NSClassFromString(@"UIAlertController")) {
-        
-        SHKAlertController *alertController = [SHKAlertController actionSheetForItem:item];
-        
-        [alertController setModalPresentationStyle:UIModalPresentationPopover];
-        UIPopoverPresentationController *popPresenter = [alertController popoverPresentationController];
-        popPresenter.barButtonItem = self.toolbarItems[1];
-        [self presentViewController:alertController animated:YES completion:nil];
-        
-    } else {
-        
-        SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
-        [actionSheet showFromToolbar:self.navigationController.toolbar];
-    }
+
+    SHKAlertController *alertController = [SHKAlertController actionSheetForItem:item];
+
+    [alertController setModalPresentationStyle:UIModalPresentationPopover];
+    UIPopoverPresentationController *popPresenter = [alertController popoverPresentationController];
+    popPresenter.barButtonItem = self.toolbarItems[1];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation 
