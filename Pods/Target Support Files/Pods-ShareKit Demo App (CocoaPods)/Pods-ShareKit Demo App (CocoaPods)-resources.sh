@@ -87,12 +87,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/Resources/backArrow_black.png"
   install_resource "${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib"
   install_resource "${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib"
+  install_resource "${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/Resources/backArrow_black.png"
   install_resource "${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib"
   install_resource "${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib"
+  install_resource "${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle"
 fi
 

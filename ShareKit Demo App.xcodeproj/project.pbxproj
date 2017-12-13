@@ -1398,7 +1398,8 @@
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/Resources/backArrow_black.png",
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib",
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib",
-				$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle,
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

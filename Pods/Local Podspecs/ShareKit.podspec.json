@@ -46,8 +46,8 @@
       ],
       "weak_frameworks": "SafariServices",
       "dependencies": {
-        "SSKeychain": [
-          "~> 1.2.2"
+        "SAMKeychain": [
+
         ],
         "SAMTextView": [
           "~> 0.2.1"

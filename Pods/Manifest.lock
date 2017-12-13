@@ -13,6 +13,7 @@ PODS:
   - LiveSDK (5.6.2)
   - PKMultipartInputStream (1.3.0)
   - PocketAPI (1.0.3)
+  - SAMKeychain (1.5.3)
   - SAMTextView (0.2.2)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -44,10 +45,10 @@ PODS:
     - ShareKit/WhatsApp (= 5.0.0)
   - ShareKit/Core (5.0.0):
     - PKMultipartInputStream
+    - SAMKeychain
     - SAMTextView (~> 0.2.1)
     - SDWebImage (~> 3.7)
     - ShareKit/Reachability
-    - SSKeychain (~> 1.2.2)
     - UIActivityIndicator-for-SDWebImage (~> 1.2)
   - ShareKit/Delicious (5.0.0):
     - ShareKit/Core
@@ -118,9 +119,10 @@ SPEC CHECKSUMS:
   LiveSDK: 893e20f06cc1838e14ec31ecf8f64ad3d18810c9
   PKMultipartInputStream: 933bc09492f3f8af47abbc4baaf583d49fba1d45
   PocketAPI: 561fd4f428a38a4662c5837247c85f9962393f01
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  ShareKit: 84205ee974c85a236331cb160212bc4ba2c70f55
+  ShareKit: e8f0c388833a095a2a025b4cc83d5756a8fe0df6
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
 
