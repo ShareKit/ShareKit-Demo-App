@@ -1,0 +1,1 @@
+../../../../Submodules/ShareKit/Classes/ShareKit/Core/Base Sharer Classes/SHKiOSSharer.h

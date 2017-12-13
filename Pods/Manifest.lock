@@ -1,0 +1,129 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Evernote-SDK-iOS (1.3.1):
+    - SSKeychain (~> 1.2.2)
+  - Facebook-iOS-SDK (3.24.4):
+    - Bolts (~> 1.2)
+  - ISO8601DateFormatter (0.8)
+  - LiveSDK (5.6.2)
+  - PKMultipartInputStream (1.3.0)
+  - PocketAPI (1.0.3)
+  - SAMTextView (0.2.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - ShareKit (5.0.0):
+    - ShareKit/Core (= 5.0.0)
+    - ShareKit/Delicious (= 5.0.0)
+    - ShareKit/Diigo (= 5.0.0)
+    - ShareKit/Evernote (= 5.0.0)
+    - ShareKit/Facebook (= 5.0.0)
+    - ShareKit/Flickr (= 5.0.0)
+    - ShareKit/Foursquare (= 5.0.0)
+    - ShareKit/Hatena (= 5.0.0)
+    - ShareKit/Imgur (= 5.0.0)
+    - ShareKit/Instagram (= 5.0.0)
+    - ShareKit/Instapaper (= 5.0.0)
+    - ShareKit/Kippt (= 5.0.0)
+    - ShareKit/LinkedIn (= 5.0.0)
+    - ShareKit/OneNote (= 5.0.0)
+    - ShareKit/Pinboard (= 5.0.0)
+    - ShareKit/Plurk (= 5.0.0)
+    - ShareKit/Pocket (= 5.0.0)
+    - ShareKit/Reachability (= 5.0.0)
+    - ShareKit/Readability (= 5.0.0)
+    - ShareKit/SinaWeibo (= 5.0.0)
+    - ShareKit/Tumblr (= 5.0.0)
+    - ShareKit/Twitter (= 5.0.0)
+    - ShareKit/Vkontakte (= 5.0.0)
+    - ShareKit/WhatsApp (= 5.0.0)
+  - ShareKit/Core (5.0.0):
+    - PKMultipartInputStream
+    - SAMTextView (~> 0.2.1)
+    - SDWebImage (~> 3.7)
+    - ShareKit/Reachability
+    - SSKeychain (~> 1.2.2)
+    - UIActivityIndicator-for-SDWebImage (~> 1.2)
+  - ShareKit/Delicious (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Diigo (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Evernote (5.0.0):
+    - Evernote-SDK-iOS (~> 1.3.1)
+    - ShareKit/Core
+  - ShareKit/Facebook (5.0.0):
+    - Facebook-iOS-SDK (~> 3.0)
+    - ShareKit/Core
+  - ShareKit/Flickr (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Foursquare (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Hatena (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Imgur (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Instagram (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Instapaper (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Kippt (5.0.0):
+    - ShareKit/Core
+  - ShareKit/LinkedIn (5.0.0):
+    - ShareKit/Core
+  - ShareKit/OneNote (5.0.0):
+    - ISO8601DateFormatter
+    - LiveSDK
+    - ShareKit/Core
+  - ShareKit/Pinboard (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Plurk (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Pocket (5.0.0):
+    - PocketAPI (~> 1.0.2)
+    - ShareKit/Core
+  - ShareKit/Reachability (5.0.0)
+  - ShareKit/Readability (5.0.0):
+    - ShareKit/Core
+  - ShareKit/SinaWeibo (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Tumblr (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Twitter (5.0.0):
+    - ShareKit/Core
+  - ShareKit/Vkontakte (5.0.0):
+    - ShareKit/Core
+  - ShareKit/WhatsApp (5.0.0):
+    - ShareKit/Core
+  - SSKeychain (1.2.3)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - ShareKit (from `Submodules/ShareKit`)
+
+EXTERNAL SOURCES:
+  ShareKit:
+    :path: Submodules/ShareKit
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Evernote-SDK-iOS: beab0882c4bcdc05117ea0b56119da12cff47fbb
+  Facebook-iOS-SDK: 5a7c414a084708220b72d5fd016f2cf3eb6deda4
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  LiveSDK: 893e20f06cc1838e14ec31ecf8f64ad3d18810c9
+  PKMultipartInputStream: 933bc09492f3f8af47abbc4baaf583d49fba1d45
+  PocketAPI: 561fd4f428a38a4662c5837247c85f9962393f01
+  SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  ShareKit: 84205ee974c85a236331cb160212bc4ba2c70f55
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+
+PODFILE CHECKSUM: cac30f7f66b60808ab902fdf0769d51fabb8736b
+
+COCOAPODS: 1.3.1

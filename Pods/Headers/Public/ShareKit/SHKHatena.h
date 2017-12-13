@@ -1,0 +1,1 @@
+../../../../Submodules/ShareKit/Classes/ShareKit/Sharers/Services/Hatena/SHKHatena.h
