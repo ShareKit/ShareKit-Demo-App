@@ -1,15 +1,16 @@
 language: objective-c
-osx_image: xcode7.2
+osx_image: xcode9.2
 before_install:
 - git submodule update --init --recursive
 - gem install cocoapods
+- gem install xcpretty
 
 script:
 
 #build the demo app (Git Submodule)
 
-- xctool -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xcodebuild -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
 
 #build the demo app (CocoaPods)
 
-- xctool -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App (CocoaPods)" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xcodebuild -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App (CocoaPods)" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
