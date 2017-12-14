@@ -1,6 +1,0 @@
-framework module PinterestSDK {
-  umbrella header "PinterestSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

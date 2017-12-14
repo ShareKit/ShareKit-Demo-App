@@ -1,6 +1,0 @@
-framework module ShareKit {
-  umbrella header "ShareKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

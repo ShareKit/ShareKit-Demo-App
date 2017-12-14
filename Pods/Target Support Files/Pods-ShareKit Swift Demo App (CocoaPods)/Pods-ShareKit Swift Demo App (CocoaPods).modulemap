@@ -1,0 +1,6 @@
+framework module Pods_ShareKit_Swift_Demo_App__CocoaPods_ {
+  umbrella header "Pods-ShareKit Swift Demo App (CocoaPods)-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ShareKit {
+  umbrella header "ShareKit-Core-Flickr-OneNote-Pinterest-Reachability-umbrella.h"
+
+  export *
+  module * { export * }
+}

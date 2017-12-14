@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71C9CF11C0E5BB9E80B32C1C /* Pods_ShareKit_Swift_Demo_App__CocoaPods_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30250B327675E655BFC239A9 /* Pods_ShareKit_Swift_Demo_App__CocoaPods_.framework */; };
 		7A101A2C197FCFB600396A3B /* ExampleShareFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C72E197C613900B0DD69 /* ExampleShareFile.m */; };
 		7A101A2D197FCFBA00396A3B /* ExampleShareImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C730197C613900B0DD69 /* ExampleShareImage.m */; };
 		7A101A2E197FCFBD00396A3B /* ExampleShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C732197C613900B0DD69 /* ExampleShareLink.m */; };
@@ -72,13 +73,30 @@
 		7A3C2F381996CA4400CEBBFA /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C832197C6E6E00B0DD69 /* example.pdf */; };
 		7A3C2F391996CA4700CEBBFA /* sanFran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C833197C6E6E00B0DD69 /* sanFran.jpg */; };
 		7A3C2F3A1996CA5600CEBBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C70A197C5E2800B0DD69 /* main.m */; };
+		7A4F3C8F1FE317DB00351870 /* ExampleShareLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED25521FE30DBC00E47008 /* ExampleShareLinkViewController.swift */; };
+		7A4F3C911FE31EF600351870 /* ExampleShareFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F3C901FE31EF600351870 /* ExampleShareFileViewController.swift */; };
+		7A4F3C921FE323C900351870 /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C832197C6E6E00B0DD69 /* example.pdf */; };
+		7A4F3C931FE325F100351870 /* demo_large_video_share.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C830197C6E6E00B0DD69 /* demo_large_video_share.mp4 */; };
+		7A4F3C941FE325F400351870 /* demo_video_share.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C831197C6E6E00B0DD69 /* demo_video_share.mov */; };
+		7A4F3C951FE3286F00351870 /* demo_audio_share.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82F197C6E6E00B0DD69 /* demo_audio_share.mp3 */; };
 		7ACDD3B4197D6E5400373DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C6FE197C5E2800B0DD69 /* Foundation.framework */; };
 		7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */; };
 		7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C702197C5E2800B0DD69 /* UIKit.framework */; };
 		7ACDD3BC197D6E5400373DC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ACDD3BA197D6E5400373DC3 /* InfoPlist.strings */; };
+		7AD697471FE29C1F004F4F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD697461FE29C1F004F4F54 /* AppDelegate.swift */; };
+		7AD697491FE29C1F004F4F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD697481FE29C1F004F4F54 /* ViewController.swift */; };
+		7AD6974C1FE29C1F004F4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD6974A1FE29C1F004F4F54 /* Main.storyboard */; };
+		7AD6974E1FE29C1F004F4F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD6974D1FE29C1F004F4F54 /* Assets.xcassets */; };
+		7AD697511FE29C1F004F4F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD6974F1FE29C1F004F4F54 /* LaunchScreen.storyboard */; };
 		7AE39AFA1E1B007200129820 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE39AF91E1B007200129820 /* FacebookSDK.framework */; };
 		7AE8A0531C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8A0501C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib */; };
 		7AE8A0841C2B69E700CE61DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C710197C5E2800B0DD69 /* Images.xcassets */; };
+		7AED24E21FE2C4A700E47008 /* ShareKitDemoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED24E11FE2C4A700E47008 /* ShareKitDemoConfigurator.swift */; };
+		7AED25171FE2D5F000E47008 /* sanFran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C833197C6E6E00B0DD69 /* sanFran.jpg */; };
+		7AED254C1FE2EC4400E47008 /* ExampleShareTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED254B1FE2EC4400E47008 /* ExampleShareTextViewController.swift */; };
+		7AED254E1FE2FF5900E47008 /* ExampleShareImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED254D1FE2FF5900E47008 /* ExampleShareImageViewController.swift */; };
+		7AED254F1FE3001A00E47008 /* largeImage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7A278E8A1A94D2C80065B351 /* largeImage.JPG */; };
+		7AED25511FE30BA400E47008 /* ViewController+SHKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED25501FE30BA400E47008 /* ViewController+SHKAlertController.swift */; };
 		BCCE1B095F49CDDA0B2D3629 /* libPods-ShareKit Demo App (CocoaPods).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047CBEDB2A28DA7AAA93A8DE /* libPods-ShareKit Demo App (CocoaPods).a */; };
 /* End PBXBuildFile section */
 
@@ -472,6 +490,8 @@
 
 /* Begin PBXFileReference section */
 		047CBEDB2A28DA7AAA93A8DE /* libPods-ShareKit Demo App (CocoaPods).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareKit Demo App (CocoaPods).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30250B327675E655BFC239A9 /* Pods_ShareKit_Swift_Demo_App__CocoaPods_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareKit_Swift_Demo_App__CocoaPods_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336881DA0B634EFF02510337 /* Pods-ShareKit Swift Demo App (CocoaPods).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareKit Swift Demo App (CocoaPods).release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareKit Swift Demo App (CocoaPods)/Pods-ShareKit Swift Demo App (CocoaPods).release.xcconfig"; sourceTree = "<group>"; };
 		7A15C6FB197C5E2800B0DD69 /* ShareKit Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15C6FE197C5E2800B0DD69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -535,6 +555,7 @@
 		7A278E8A1A94D2C80065B351 /* largeImage.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = largeImage.JPG; path = "ShareKit Demo App/largeImage.JPG"; sourceTree = "<group>"; };
 		7A3681E01FE192ED00598C9E /* MainScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScene.storyboard; sourceTree = "<group>"; };
 		7A3C2F401996DDBA00CEBBFA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A4F3C901FE31EF600351870 /* ExampleShareFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleShareFileViewController.swift; sourceTree = "<group>"; };
 		7ABAAE8219AF226E005C344F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App (CocoaPods).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACDD3BB197D6E5400373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -543,8 +564,21 @@
 		7ACDD3D1197D6E5500373DC3 /* ShareKit Demo App (CocoaPods)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareKit Demo App (CocoaPods)Tests-Info.plist"; sourceTree = "<group>"; };
 		7ACDD3D3197D6E5500373DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7ACDD3D5197D6E5500373DC3 /* ShareKit_Demo_App__CocoaPods_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareKit_Demo_App__CocoaPods_Tests.m; sourceTree = "<group>"; };
+		7AD697441FE29C1F004F4F54 /* ShareKit Swift Demo App (CocoaPods).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Swift Demo App (CocoaPods).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD697461FE29C1F004F4F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AD697481FE29C1F004F4F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AD6974B1FE29C1F004F4F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AD6974D1FE29C1F004F4F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AD697501FE29C1F004F4F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AD697521FE29C1F004F4F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE39AF91E1B007200129820 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Submodules/ShareKit/Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
 		7AE8A0501C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec-client/Deps/gtm-oauth2/Source/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		7AED24E11FE2C4A700E47008 /* ShareKitDemoConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareKitDemoConfigurator.swift; sourceTree = "<group>"; };
+		7AED254B1FE2EC4400E47008 /* ExampleShareTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleShareTextViewController.swift; sourceTree = "<group>"; };
+		7AED254D1FE2FF5900E47008 /* ExampleShareImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleShareImageViewController.swift; sourceTree = "<group>"; };
+		7AED25501FE30BA400E47008 /* ViewController+SHKAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SHKAlertController.swift"; sourceTree = "<group>"; };
+		7AED25521FE30DBC00E47008 /* ExampleShareLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleShareLinkViewController.swift; sourceTree = "<group>"; };
+		8695C35E8B73A53E4CD23AB7 /* Pods-ShareKit Swift Demo App (CocoaPods).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareKit Swift Demo App (CocoaPods).debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareKit Swift Demo App (CocoaPods)/Pods-ShareKit Swift Demo App (CocoaPods).debug.xcconfig"; sourceTree = "<group>"; };
 		86B6DFFFD5AB5354E349EC89 /* Pods-ShareKit Demo App (CocoaPods).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareKit Demo App (CocoaPods).debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods).debug.xcconfig"; sourceTree = "<group>"; };
 		9D98D5C97E827B641EDFA58B /* Pods-ShareKit Demo App (CocoaPods).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareKit Demo App (CocoaPods).release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -599,6 +633,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AD697411FE29C1F004F4F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C9CF11C0E5BB9E80B32C1C /* Pods_ShareKit_Swift_Demo_App__CocoaPods_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -611,6 +653,7 @@
 				7A15C71D197C5E2800B0DD69 /* ShareKit Demo AppTests */,
 				7ACDD3B7197D6E5400373DC3 /* ShareKit Demo App (CocoaPods) */,
 				7ACDD3CF197D6E5400373DC3 /* ShareKit Demo App (CocoaPods)Tests */,
+				7AD697451FE29C1F004F4F54 /* ShareKit Swift Demo App (CocoaPods) */,
 				7A15C6FD197C5E2800B0DD69 /* Frameworks */,
 				7A15C6FC197C5E2800B0DD69 /* Products */,
 				FDC7C571FD809EE67E189090 /* Pods */,
@@ -622,6 +665,7 @@
 			children = (
 				7A15C6FB197C5E2800B0DD69 /* ShareKit Demo App.app */,
 				7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */,
+				7AD697441FE29C1F004F4F54 /* ShareKit Swift Demo App (CocoaPods).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -662,6 +706,7 @@
 				7A15C702197C5E2800B0DD69 /* UIKit.framework */,
 				7A15C717197C5E2800B0DD69 /* XCTest.framework */,
 				047CBEDB2A28DA7AAA93A8DE /* libPods-ShareKit Demo App (CocoaPods).a */,
+				30250B327675E655BFC239A9 /* Pods_ShareKit_Swift_Demo_App__CocoaPods_.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -840,6 +885,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7AD697451FE29C1F004F4F54 /* ShareKit Swift Demo App (CocoaPods) */ = {
+			isa = PBXGroup;
+			children = (
+				7AD697461FE29C1F004F4F54 /* AppDelegate.swift */,
+				7AD697481FE29C1F004F4F54 /* ViewController.swift */,
+				7AD6974A1FE29C1F004F4F54 /* Main.storyboard */,
+				7AD6974D1FE29C1F004F4F54 /* Assets.xcassets */,
+				7AD6974F1FE29C1F004F4F54 /* LaunchScreen.storyboard */,
+				7AD697521FE29C1F004F4F54 /* Info.plist */,
+				7AED24E11FE2C4A700E47008 /* ShareKitDemoConfigurator.swift */,
+				7AED254B1FE2EC4400E47008 /* ExampleShareTextViewController.swift */,
+				7AED254D1FE2FF5900E47008 /* ExampleShareImageViewController.swift */,
+				7AED25501FE30BA400E47008 /* ViewController+SHKAlertController.swift */,
+				7AED25521FE30DBC00E47008 /* ExampleShareLinkViewController.swift */,
+				7A4F3C901FE31EF600351870 /* ExampleShareFileViewController.swift */,
+			);
+			path = "ShareKit Swift Demo App (CocoaPods)";
+			sourceTree = "<group>";
+		};
 		7AE8A0511C2B646B00CE61DE /* Google OAuth */ = {
 			isa = PBXGroup;
 			children = (
@@ -862,6 +926,8 @@
 			children = (
 				86B6DFFFD5AB5354E349EC89 /* Pods-ShareKit Demo App (CocoaPods).debug.xcconfig */,
 				9D98D5C97E827B641EDFA58B /* Pods-ShareKit Demo App (CocoaPods).release.xcconfig */,
+				8695C35E8B73A53E4CD23AB7 /* Pods-ShareKit Swift Demo App (CocoaPods).debug.xcconfig */,
+				336881DA0B634EFF02510337 /* Pods-ShareKit Swift Demo App (CocoaPods).release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -908,6 +974,26 @@
 			productReference = 7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */;
 			productType = "com.apple.product-type.application";
 		};
+		7AD697431FE29C1F004F4F54 /* ShareKit Swift Demo App (CocoaPods) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD697881FE29C1F004F4F54 /* Build configuration list for PBXNativeTarget "ShareKit Swift Demo App (CocoaPods)" */;
+			buildPhases = (
+				10520E94299E4F8F48BDF6D0 /* [CP] Check Pods Manifest.lock */,
+				7AD697401FE29C1F004F4F54 /* Sources */,
+				7AD697411FE29C1F004F4F54 /* Frameworks */,
+				7AD697421FE29C1F004F4F54 /* Resources */,
+				22F35457EDC3CE158EF7AA3D /* [CP] Embed Pods Frameworks */,
+				127A362FECB826162A7F791C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShareKit Swift Demo App (CocoaPods)";
+			productName = "ShareKit Swift Demo App (Cocoapods)";
+			productReference = 7AD697441FE29C1F004F4F54 /* ShareKit Swift Demo App (CocoaPods).app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -915,6 +1001,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SHK;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Vilém Kurz";
 				TargetAttributes = {
@@ -924,6 +1011,10 @@
 					7ACDD3B2197D6E5400373DC3 = {
 						ProvisioningStyle = Manual;
 					};
+					7AD697431FE29C1F004F4F54 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 7A15C6F6197C5E2800B0DD69 /* Build configuration list for PBXProject "ShareKit Demo App" */;
@@ -932,6 +1023,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7A15C6F2197C5E2800B0DD69;
 			productRefGroup = 7A15C6FC197C5E2800B0DD69 /* Products */;
@@ -946,6 +1038,7 @@
 			targets = (
 				7A15C6FA197C5E2800B0DD69 /* ShareKit Demo App */,
 				7ACDD3B2197D6E5400373DC3 /* ShareKit Demo App (CocoaPods) */,
+				7AD697431FE29C1F004F4F54 /* ShareKit Swift Demo App (CocoaPods) */,
 			);
 		};
 /* End PBXProject section */
@@ -1361,9 +1454,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AD697421FE29C1F004F4F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AED254F1FE3001A00E47008 /* largeImage.JPG in Resources */,
+				7A4F3C941FE325F400351870 /* demo_video_share.mov in Resources */,
+				7AD697511FE29C1F004F4F54 /* LaunchScreen.storyboard in Resources */,
+				7AD6974E1FE29C1F004F4F54 /* Assets.xcassets in Resources */,
+				7A4F3C921FE323C900351870 /* example.pdf in Resources */,
+				7A4F3C951FE3286F00351870 /* demo_audio_share.mp3 in Resources */,
+				7AD6974C1FE29C1F004F4F54 /* Main.storyboard in Resources */,
+				7AED25171FE2D5F000E47008 /* sanFran.jpg in Resources */,
+				7A4F3C931FE325F100351870 /* demo_large_video_share.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		10520E94299E4F8F48BDF6D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareKit Swift Demo App (CocoaPods)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		127A362FECB826162A7F791C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareKit Swift Demo App (CocoaPods)/Pods-ShareKit Swift Demo App (CocoaPods)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22F35457EDC3CE158EF7AA3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareKit Swift Demo App (CocoaPods)/Pods-ShareKit Swift Demo App (CocoaPods)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-framework/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ISO8601DateFormatter-framework/ISO8601DateFormatter.framework",
+				"${BUILT_PRODUCTS_DIR}/LiveSDK-framework/LiveSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/PKMultipartInputStream-framework/PKMultipartInputStream.framework",
+				"${BUILT_PRODUCTS_DIR}/PinterestSDK-framework/PinterestSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain-framework/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMTextView-framework/SAMTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-framework/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSKeychain-framework/SSKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/ShareKit-Core-Flickr-OneNote-Pinterest-Reachability/ShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISO8601DateFormatter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiveSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKMultipartInputStream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinterestSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareKit Swift Demo App (CocoaPods)/Pods-ShareKit Swift Demo App (CocoaPods)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4BEF5ECE919B505888089A05 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1439,7 +1617,7 @@
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib",
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib",
 				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -1480,6 +1658,21 @@
 				7A3C2F321996BABD00CEBBFA /* ExampleShareText.m in Sources */,
 				7A3C2F3A1996CA5600CEBBFA /* main.m in Sources */,
 				7A3C2F001996BAB200CEBBFA /* ShareKitAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AD697401FE29C1F004F4F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AED24E21FE2C4A700E47008 /* ShareKitDemoConfigurator.swift in Sources */,
+				7AED254C1FE2EC4400E47008 /* ExampleShareTextViewController.swift in Sources */,
+				7AED25511FE30BA400E47008 /* ViewController+SHKAlertController.swift in Sources */,
+				7A4F3C8F1FE317DB00351870 /* ExampleShareLinkViewController.swift in Sources */,
+				7AED254E1FE2FF5900E47008 /* ExampleShareImageViewController.swift in Sources */,
+				7A4F3C911FE31EF600351870 /* ExampleShareFileViewController.swift in Sources */,
+				7AD697491FE29C1F004F4F54 /* ViewController.swift in Sources */,
+				7AD697471FE29C1F004F4F54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1529,6 +1722,22 @@
 				7ACDD3D3197D6E5500373DC3 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AD6974A1FE29C1F004F4F54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD6974B1FE29C1F004F4F54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AD6974F1FE29C1F004F4F54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD697501FE29C1F004F4F54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1725,6 +1934,60 @@
 			};
 			name = Release;
 		};
+		7AD697531FE29C1F004F4F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8695C35E8B73A53E4CD23AB7 /* Pods-ShareKit Swift Demo App (CocoaPods).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "ShareKit Swift Demo App (CocoaPods)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AD697541FE29C1F004F4F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336881DA0B634EFF02510337 /* Pods-ShareKit Swift Demo App (CocoaPods).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "ShareKit Swift Demo App (CocoaPods)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaminers.ShareKit-demo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1751,6 +2014,15 @@
 			buildConfigurations = (
 				7ACDD3D7197D6E5700373DC3 /* Debug */,
 				7ACDD3D8197D6E5700373DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD697881FE29C1F004F4F54 /* Build configuration list for PBXNativeTarget "ShareKit Swift Demo App (CocoaPods)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD697531FE29C1F004F4F54 /* Debug */,
+				7AD697541FE29C1F004F4F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

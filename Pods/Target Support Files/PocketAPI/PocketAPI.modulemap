@@ -1,6 +1,0 @@
-framework module PocketAPI {
-  umbrella header "PocketAPI-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module PKMultipartInputStream {
+  umbrella header "PKMultipartInputStream-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

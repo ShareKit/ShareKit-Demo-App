@@ -8,9 +8,12 @@ before_install:
 script:
 
 #build the demo app (Git Submodule)
-
 - xcodebuild -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
 
 #build the demo app (CocoaPods)
-
+- xcodebuild clean
 - xcodebuild -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Demo App (CocoaPods)" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
+
+#build the Swift demo app (CocoaPods)
+- xcodebuild clean
+- xcodebuild -workspace "ShareKit Demo App.xcworkspace" -scheme "ShareKit Swift Demo App (CocoaPods)" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}

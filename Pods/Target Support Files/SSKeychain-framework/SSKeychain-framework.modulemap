@@ -1,0 +1,6 @@
+framework module SSKeychain {
+  umbrella header "SSKeychain-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

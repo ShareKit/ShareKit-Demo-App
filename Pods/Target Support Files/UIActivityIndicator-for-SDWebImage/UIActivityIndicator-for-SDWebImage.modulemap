@@ -1,6 +1,0 @@
-framework module UIActivityIndicator_for_SDWebImage {
-  umbrella header "UIActivityIndicator-for-SDWebImage-umbrella.h"
-
-  export *
-  module * { export * }
-}

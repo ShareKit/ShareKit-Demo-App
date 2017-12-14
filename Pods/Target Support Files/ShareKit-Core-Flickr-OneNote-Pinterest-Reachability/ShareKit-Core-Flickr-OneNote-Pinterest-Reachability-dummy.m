@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_ShareKit_Core_Flickr_OneNote_Pinterest_Reachability : NSObject
+@end
+@implementation PodsDummy_ShareKit_Core_Flickr_OneNote_Pinterest_Reachability
+@end
