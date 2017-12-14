@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - Bolts (1.8.4):
     - Bolts/AppLinks (= 1.8.4)
     - Bolts/Tasks (= 1.8.4)
@@ -11,6 +26,9 @@ PODS:
     - Bolts (~> 1.2)
   - ISO8601DateFormatter (0.8)
   - LiveSDK (5.6.2)
+  - PinterestSDK (1.0.2):
+    - AFNetworking (~> 3.0)
+    - SSKeychain
   - PKMultipartInputStream (1.3.0)
   - PocketAPI (1.0.3)
   - SAMKeychain (1.5.3)
@@ -34,6 +52,7 @@ PODS:
     - ShareKit/LinkedIn (= 5.0.0)
     - ShareKit/OneNote (= 5.0.0)
     - ShareKit/Pinboard (= 5.0.0)
+    - ShareKit/Pinterest (= 5.0.0)
     - ShareKit/Plurk (= 5.0.0)
     - ShareKit/Pocket (= 5.0.0)
     - ShareKit/Reachability (= 5.0.0)
@@ -82,6 +101,9 @@ PODS:
     - ShareKit/Core
   - ShareKit/Pinboard (5.0.0):
     - ShareKit/Core
+  - ShareKit/Pinterest (5.0.0):
+    - PinterestSDK
+    - ShareKit/Core
   - ShareKit/Plurk (5.0.0):
     - ShareKit/Core
   - ShareKit/Pocket (5.0.0):
@@ -112,17 +134,19 @@ EXTERNAL SOURCES:
     :path: Submodules/ShareKit
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   Evernote-SDK-iOS: beab0882c4bcdc05117ea0b56119da12cff47fbb
   Facebook-iOS-SDK: 5a7c414a084708220b72d5fd016f2cf3eb6deda4
   ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
   LiveSDK: 893e20f06cc1838e14ec31ecf8f64ad3d18810c9
+  PinterestSDK: 6c6d92cc749e6520d1b6f1e75410c6fd1d05844c
   PKMultipartInputStream: 933bc09492f3f8af47abbc4baaf583d49fba1d45
   PocketAPI: 561fd4f428a38a4662c5837247c85f9962393f01
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  ShareKit: e8f0c388833a095a2a025b4cc83d5756a8fe0df6
+  ShareKit: 3e9ab2772b628829c4f55b9377a0a7c7893eb598
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
 

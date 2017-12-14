@@ -275,6 +275,18 @@
       }
     },
     {
+      "name": "Pinterest",
+      "source_files": "Classes/ShareKit/Sharers/Services/Pinterest/**/*.{h,m}",
+      "dependencies": {
+        "PinterestSDK": [
+
+        ],
+        "ShareKit/Core": [
+
+        ]
+      }
+    },
+    {
       "name": "WhatsApp",
       "source_files": "Classes/ShareKit/Sharers/Services/WhatsApp/**/*.{h,m}",
       "dependencies": {

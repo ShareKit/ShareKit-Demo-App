@@ -22,7 +22,6 @@
 		7A15C73E197C613900B0DD69 /* ExampleShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C732197C613900B0DD69 /* ExampleShareLink.m */; };
 		7A15C73F197C613900B0DD69 /* ExampleShareText.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C734197C613900B0DD69 /* ExampleShareText.m */; };
 		7A15C740197C613900B0DD69 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C736197C613900B0DD69 /* RootViewController.m */; };
-		7A15C741197C613900B0DD69 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C737197C613900B0DD69 /* RootViewController.xib */; };
 		7A15C742197C613900B0DD69 /* ShareKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C739197C613900B0DD69 /* ShareKitAppDelegate.m */; };
 		7A15C743197C613900B0DD69 /* ShareKitDemoConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C73B197C613900B0DD69 /* ShareKitDemoConfigurator.m */; };
 		7A15C7DF197C65B800B0DD69 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C77A197C657200B0DD69 /* libShareKit.a */; };
@@ -55,7 +54,6 @@
 		7A15C824197C67C800B0DD69 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C81A197C67C700B0DD69 /* LiveSDK.framework */; };
 		7A15C82A197C684700B0DD69 /* LiveSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C81A197C67C700B0DD69 /* LiveSDK.framework */; };
 		7A15C82C197C6C2300B0DD69 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A15C82B197C6C2300B0DD69 /* SafariServices.framework */; };
-		7A15C82E197C6DEF00B0DD69 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82D197C6DEF00B0DD69 /* MainWindow.xib */; };
 		7A15C834197C6E6E00B0DD69 /* demo_audio_share.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82F197C6E6E00B0DD69 /* demo_audio_share.mp3 */; };
 		7A15C835197C6E6E00B0DD69 /* demo_large_video_share.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C830197C6E6E00B0DD69 /* demo_large_video_share.mp4 */; };
 		7A15C836197C6E6E00B0DD69 /* demo_video_share.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C831197C6E6E00B0DD69 /* demo_video_share.mov */; };
@@ -63,12 +61,12 @@
 		7A15C838197C6E6E00B0DD69 /* sanFran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C833197C6E6E00B0DD69 /* sanFran.jpg */; };
 		7A278E8B1A94D2C80065B351 /* largeImage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7A278E8A1A94D2C80065B351 /* largeImage.JPG */; };
 		7A278EBE1A94D46C0065B351 /* largeImage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7A278E8A1A94D2C80065B351 /* largeImage.JPG */; };
+		7A3681E11FE192ED00598C9E /* MainScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3681E01FE192ED00598C9E /* MainScene.storyboard */; };
+		7A3681E21FE192ED00598C9E /* MainScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3681E01FE192ED00598C9E /* MainScene.storyboard */; };
 		7A3C2F001996BAB200CEBBFA /* ShareKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C739197C613900B0DD69 /* ShareKitAppDelegate.m */; };
 		7A3C2F301996BAB500CEBBFA /* ShareKitDemoConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C73B197C613900B0DD69 /* ShareKitDemoConfigurator.m */; };
 		7A3C2F311996BABB00CEBBFA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C736197C613900B0DD69 /* RootViewController.m */; };
 		7A3C2F321996BABD00CEBBFA /* ExampleShareText.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C734197C613900B0DD69 /* ExampleShareText.m */; };
-		7A3C2F331996C81100CEBBFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82D197C6DEF00B0DD69 /* MainWindow.xib */; };
-		7A3C2F341996C84E00CEBBFA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C737197C613900B0DD69 /* RootViewController.xib */; };
 		7A3C2F351996CA3C00CEBBFA /* demo_audio_share.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C82F197C6E6E00B0DD69 /* demo_audio_share.mp3 */; };
 		7A3C2F361996CA3F00CEBBFA /* demo_large_video_share.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C830197C6E6E00B0DD69 /* demo_large_video_share.mp4 */; };
 		7A3C2F371996CA4100CEBBFA /* demo_video_share.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C831197C6E6E00B0DD69 /* demo_video_share.mov */; };
@@ -442,6 +440,13 @@
 			remoteGlobalIDString = 7A278E801A93D0B90065B351;
 			remoteInfo = WhatsApp;
 		};
+		7A3682161FE192EF00598C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A3681721FE14FE900598C9E;
+			remoteInfo = SAMKeychain;
+		};
 		7A74C8A41A4981C200F1F6B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7A15C745197C657100B0DD69 /* ShareKit.xcodeproj */;
@@ -490,7 +495,6 @@
 		7A15C734197C613900B0DD69 /* ExampleShareText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleShareText.m; sourceTree = "<group>"; };
 		7A15C735197C613900B0DD69 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		7A15C736197C613900B0DD69 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		7A15C737197C613900B0DD69 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		7A15C738197C613900B0DD69 /* ShareKitAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareKitAppDelegate.h; sourceTree = "<group>"; };
 		7A15C739197C613900B0DD69 /* ShareKitAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareKitAppDelegate.m; sourceTree = "<group>"; };
 		7A15C73A197C613900B0DD69 /* ShareKitDemoConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareKitDemoConfigurator.h; sourceTree = "<group>"; };
@@ -523,13 +527,13 @@
 		7A15C819197C67C700B0DD69 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = Submodules/ShareKit/Frameworks/GooglePlus.framework; sourceTree = "<group>"; };
 		7A15C81A197C67C700B0DD69 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveSDK.framework; path = Submodules/ShareKit/Frameworks/LiveSDK.framework; sourceTree = "<group>"; };
 		7A15C82B197C6C2300B0DD69 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		7A15C82D197C6DEF00B0DD69 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		7A15C82F197C6E6E00B0DD69 /* demo_audio_share.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = demo_audio_share.mp3; path = "ShareKit Demo App/demo_audio_share.mp3"; sourceTree = "<group>"; };
 		7A15C830197C6E6E00B0DD69 /* demo_large_video_share.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo_large_video_share.mp4; path = "ShareKit Demo App/demo_large_video_share.mp4"; sourceTree = "<group>"; };
 		7A15C831197C6E6E00B0DD69 /* demo_video_share.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = demo_video_share.mov; path = "ShareKit Demo App/demo_video_share.mov"; sourceTree = "<group>"; };
 		7A15C832197C6E6E00B0DD69 /* example.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = example.pdf; path = "ShareKit Demo App/example.pdf"; sourceTree = "<group>"; };
 		7A15C833197C6E6E00B0DD69 /* sanFran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sanFran.jpg; path = "ShareKit Demo App/sanFran.jpg"; sourceTree = "<group>"; };
 		7A278E8A1A94D2C80065B351 /* largeImage.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = largeImage.JPG; path = "ShareKit Demo App/largeImage.JPG"; sourceTree = "<group>"; };
+		7A3681E01FE192ED00598C9E /* MainScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScene.storyboard; sourceTree = "<group>"; };
 		7A3C2F401996DDBA00CEBBFA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7ABAAE8219AF226E005C344F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7ACDD3B3197D6E5400373DC3 /* ShareKit Demo App (CocoaPods).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App (CocoaPods).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -675,14 +679,13 @@
 				7A15C734197C613900B0DD69 /* ExampleShareText.m */,
 				7A15C735197C613900B0DD69 /* RootViewController.h */,
 				7A15C736197C613900B0DD69 /* RootViewController.m */,
-				7A15C737197C613900B0DD69 /* RootViewController.xib */,
 				7A15C738197C613900B0DD69 /* ShareKitAppDelegate.h */,
 				7A15C739197C613900B0DD69 /* ShareKitAppDelegate.m */,
 				7A15C73A197C613900B0DD69 /* ShareKitDemoConfigurator.h */,
 				7A15C73B197C613900B0DD69 /* ShareKitDemoConfigurator.m */,
-				7A15C82D197C6DEF00B0DD69 /* MainWindow.xib */,
 				7A15C839197C6E8100B0DD69 /* Resources */,
 				7A15C705197C5E2800B0DD69 /* Supporting Files */,
+				7A3681E01FE192ED00598C9E /* MainScene.storyboard */,
 			);
 			path = "ShareKit Demo App";
 			sourceTree = "<group>";
@@ -779,6 +782,7 @@
 				7A278EBD1A94D2C80065B351 /* libWhatsApp.a */,
 				7AE8A1DD1C3327CB00CE61DE /* libPinterest SDK.a */,
 				7AE8A1DF1C3327CB00CE61DE /* libAFNetworking.a */,
+				7A3682171FE192EF00598C9E /* libSAMKeychain.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1290,6 +1294,13 @@
 			remoteRef = 7A278EBC1A94D2C80065B351 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		7A3682171FE192EF00598C9E /* libSAMKeychain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSAMKeychain.a;
+			remoteRef = 7A3682161FE192EF00598C9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		7A74C8A51A4981C200F1F6B0 /* libiso-8601-date-formatter.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1320,6 +1331,7 @@
 			files = (
 				7AE8A0531C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib in Resources */,
 				7A15C835197C6E6E00B0DD69 /* demo_large_video_share.mp4 in Resources */,
+				7A3681E11FE192ED00598C9E /* MainScene.storyboard in Resources */,
 				7A278E8B1A94D2C80065B351 /* largeImage.JPG in Resources */,
 				7A15C82A197C684700B0DD69 /* LiveSDK.framework in Resources */,
 				7A15C7E0197C65C400B0DD69 /* ShareKit.bundle in Resources */,
@@ -1327,11 +1339,9 @@
 				7A15C822197C67C800B0DD69 /* GooglePlus.bundle in Resources */,
 				7A15C709197C5E2800B0DD69 /* InfoPlist.strings in Resources */,
 				7A15C836197C6E6E00B0DD69 /* demo_video_share.mov in Resources */,
-				7A15C82E197C6DEF00B0DD69 /* MainWindow.xib in Resources */,
 				7A15C838197C6E6E00B0DD69 /* sanFran.jpg in Resources */,
 				7A15C834197C6E6E00B0DD69 /* demo_audio_share.mp3 in Resources */,
 				7A15C711197C5E2800B0DD69 /* Images.xcassets in Resources */,
-				7A15C741197C613900B0DD69 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1346,9 +1356,8 @@
 				7A3C2F391996CA4700CEBBFA /* sanFran.jpg in Resources */,
 				7A278EBE1A94D46C0065B351 /* largeImage.JPG in Resources */,
 				7A3C2F351996CA3C00CEBBFA /* demo_audio_share.mp3 in Resources */,
-				7A3C2F341996C84E00CEBBFA /* RootViewController.xib in Resources */,
-				7A3C2F331996C81100CEBBFA /* MainWindow.xib in Resources */,
 				7A3C2F381996CA4400CEBBFA /* example.pdf in Resources */,
+				7A3681E21FE192ED00598C9E /* MainScene.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1399,7 +1408,7 @@
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib",
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib",
 				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

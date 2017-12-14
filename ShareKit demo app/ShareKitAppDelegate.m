@@ -26,10 +26,6 @@
 
 @implementation ShareKitAppDelegate
 
-@synthesize window;
-@synthesize navigationController;
-
-
 #pragma mark -
 #pragma mark Application lifecycle
 
@@ -39,10 +35,8 @@
     //Here you load ShareKit submodule with app specific configuration
     DefaultSHKConfigurator *configurator = [[ShareKitDemoConfigurator alloc] init];
     [SHKConfiguration sharedInstanceWithConfigurator:configurator];
-    
-    window.rootViewController = navigationController;
-    [window makeKeyAndVisible];
-	
+
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
 	navigationController.topViewController.title = SHKLocalizedString(@"Examples");
 	[navigationController setToolbarHidden:NO];
 	
