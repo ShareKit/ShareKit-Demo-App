@@ -1,0 +1,6 @@
+framework module SAMTextView {
+  umbrella header "SAMTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

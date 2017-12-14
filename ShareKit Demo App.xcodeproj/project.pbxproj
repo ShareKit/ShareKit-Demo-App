@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7858374EEF1BF0FCC8CBB6EA /* libPods-ShareKit Demo App (CocoaPods).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF8A35A02D826DD68A2D4C /* libPods-ShareKit Demo App (CocoaPods).a */; };
 		7A101A2C197FCFB600396A3B /* ExampleShareFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C72E197C613900B0DD69 /* ExampleShareFile.m */; };
 		7A101A2D197FCFBA00396A3B /* ExampleShareImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C730197C613900B0DD69 /* ExampleShareImage.m */; };
 		7A101A2E197FCFBD00396A3B /* ExampleShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15C732197C613900B0DD69 /* ExampleShareLink.m */; };
@@ -80,6 +79,7 @@
 		7AE39AFA1E1B007200129820 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE39AF91E1B007200129820 /* FacebookSDK.framework */; };
 		7AE8A0531C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8A0501C2B646B00CE61DE /* GTMOAuth2ViewTouch.xib */; };
 		7AE8A0841C2B69E700CE61DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A15C710197C5E2800B0DD69 /* Images.xcassets */; };
+		BCCE1B095F49CDDA0B2D3629 /* libPods-ShareKit Demo App (CocoaPods).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047CBEDB2A28DA7AAA93A8DE /* libPods-ShareKit Demo App (CocoaPods).a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -471,7 +471,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04EF8A35A02D826DD68A2D4C /* libPods-ShareKit Demo App (CocoaPods).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareKit Demo App (CocoaPods).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047CBEDB2A28DA7AAA93A8DE /* libPods-ShareKit Demo App (CocoaPods).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareKit Demo App (CocoaPods).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15C6FB197C5E2800B0DD69 /* ShareKit Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareKit Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15C6FE197C5E2800B0DD69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -595,7 +595,7 @@
 				7ACDD3B5197D6E5400373DC3 /* CoreGraphics.framework in Frameworks */,
 				7ACDD3B6197D6E5400373DC3 /* UIKit.framework in Frameworks */,
 				7ACDD3B4197D6E5400373DC3 /* Foundation.framework in Frameworks */,
-				7858374EEF1BF0FCC8CBB6EA /* libPods-ShareKit Demo App (CocoaPods).a in Frameworks */,
+				BCCE1B095F49CDDA0B2D3629 /* libPods-ShareKit Demo App (CocoaPods).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +661,7 @@
 				7A15C700197C5E2800B0DD69 /* CoreGraphics.framework */,
 				7A15C702197C5E2800B0DD69 /* UIKit.framework */,
 				7A15C717197C5E2800B0DD69 /* XCTest.framework */,
-				04EF8A35A02D826DD68A2D4C /* libPods-ShareKit Demo App (CocoaPods).a */,
+				047CBEDB2A28DA7AAA93A8DE /* libPods-ShareKit Demo App (CocoaPods).a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1388,9 +1388,40 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareKit Demo App (CocoaPods)/Pods-ShareKit Demo App (CocoaPods)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Evernote-SDK-iOS/Evernote_SDK_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/Facebook-iOS-SDK/FacebookSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/ISO8601DateFormatter/ISO8601DateFormatter.framework",
+				"${BUILT_PRODUCTS_DIR}/LiveSDK/LiveSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/PKMultipartInputStream/PKMultipartInputStream.framework",
+				"${BUILT_PRODUCTS_DIR}/PinterestSDK/PinterestSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/PocketAPI/PocketAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMTextView/SAMTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/ShareKit/ShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UIActivityIndicator-for-SDWebImage/UIActivityIndicator_for_SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Evernote_SDK_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISO8601DateFormatter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiveSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKMultipartInputStream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinterestSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PocketAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIActivityIndicator_for_SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1408,7 +1439,7 @@
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib",
 				"${PODS_ROOT}/LiveSDK/src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib",
 				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
-				$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle,
+				"$PODS_CONFIGURATION_BUILD_DIR/ShareKit/ShareKit.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

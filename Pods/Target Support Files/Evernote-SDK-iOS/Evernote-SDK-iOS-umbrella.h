@@ -1,0 +1,82 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "EDAMNoteStoreClient+Utilities.h"
+#import "ENConstants.h"
+#import "EvernoteNoteStore+Extras.h"
+#import "EvernoteNoteStore.h"
+#import "EvernoteSDK.h"
+#import "EvernoteSession.h"
+#import "EvernoteUserStore+Extras.h"
+#import "EvernoteUserStore.h"
+#import "EDAM.h"
+#import "EDAMErrors.h"
+#import "EDAMLimits.h"
+#import "EDAMNoteStore.h"
+#import "EDAMTypes.h"
+#import "EDAMUserStore.h"
+#import "ENApplicationBridge.h"
+#import "ENApplicationBridge_Private.h"
+#import "ENApplicationRequest.h"
+#import "ENAuthenticationRequest.h"
+#import "ENLinkNotebookRequest.h"
+#import "ENNewNoteRequest.h"
+#import "ENNoteImportRequest.h"
+#import "ENNoteViewRequest.h"
+#import "ENResourceAttachment.h"
+#import "ENSearchRequest.h"
+#import "EvernoteBridge.h"
+#import "ENAPI.h"
+#import "ENCredentials.h"
+#import "ENCredentialStore.h"
+#import "ENOAuthViewController.h"
+#import "ENMLUtility.h"
+#import "ENEncryptedContentInfo.h"
+#import "ENMIMEUtils.h"
+#import "ENMLWriter.h"
+#import "ENXMLDTD.h"
+#import "ENXMLUtils.h"
+#import "ENXMLWriter.h"
+#import "NSRegularExpression+ENAGRegex.h"
+#import "NSString+EDAMNilAdditions.h"
+#import "NSData+EvernoteSDK.h"
+#import "NSDataBase64Additions.h"
+#import "NSDate+EDAMAdditions.h"
+#import "ENAFURLConnectionOperation.h"
+#import "ENGCOAuth.h"
+#import "NSData+ENBase64.h"
+#import "KSForwardingWriter.h"
+#import "KSHTMLWriter.h"
+#import "KSWriter.h"
+#import "KSXMLAttributes.h"
+#import "KSXMLWriter.h"
+#import "NSString+XMLAdditions.h"
+#import "NSString+URLEncoding.h"
+#import "TBinaryProtocol.h"
+#import "TProtocol.h"
+#import "TProtocolException.h"
+#import "TProtocolFactory.h"
+#import "TProtocolUtil.h"
+#import "TApplicationException.h"
+#import "TException.h"
+#import "Thrift.h"
+#import "TObjective-C.h"
+#import "TProcessor.h"
+#import "TProcessorFactory.h"
+#import "THTTPClient.h"
+#import "TMemoryBuffer.h"
+#import "TTransport.h"
+#import "TTransportException.h"
+
+FOUNDATION_EXPORT double Evernote_SDK_iOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Evernote_SDK_iOSVersionString[];
+

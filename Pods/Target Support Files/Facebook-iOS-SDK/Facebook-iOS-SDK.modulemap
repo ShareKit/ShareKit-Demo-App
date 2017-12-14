@@ -1,0 +1,6 @@
+framework module FacebookSDK {
+  umbrella header "Facebook-iOS-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

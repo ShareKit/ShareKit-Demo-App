@@ -1,0 +1,6 @@
+framework module Evernote_SDK_iOS {
+  umbrella header "Evernote-SDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

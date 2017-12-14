@@ -107,7 +107,7 @@ PODS:
   - ShareKit/Plurk (5.0.0):
     - ShareKit/Core
   - ShareKit/Pocket (5.0.0):
-    - PocketAPI (~> 1.0.2)
+    - PocketAPI (~> 1.0)
     - ShareKit/Core
   - ShareKit/Reachability (5.0.0)
   - ShareKit/Readability (5.0.0):
@@ -146,7 +146,7 @@ SPEC CHECKSUMS:
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  ShareKit: 3e9ab2772b628829c4f55b9377a0a7c7893eb598
+  ShareKit: 55fafa274c0aa8ac49a04b817e6ddc1d6f43546b
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
 
